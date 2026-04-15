@@ -171,23 +171,23 @@ const ExpertiseSection = () => {
   const skills = [
     {
       icon: <ScanFace className="w-8 h-8" />,
-      title: "Deepfake-Erkennung",
-      desc: "KI-generierte Gesichter folgen anderen Mustern als echte. Wo Algorithmen Pixel analysieren, erfasse ich sofort die 'falsche' Konfiguration – die unnatürliche Symmetrie, die nicht stimmende Lichtreflexion in den Augen, die zu perfekte Hautstruktur. Bei Ludenscheidt Research nutze ich das, um synthetische Inhalte in Desinformationskampagnen zu identifizieren."
+      title: "Super-Recognizing",
+      desc: "Angeborene Fähigkeit zur außergewöhnlichen Gesichtswahrnehmung, die auf neurobiologischen Unterschieden im fusiformen Gesichtsareal basiert. Ich erkenne Gesichter ganzheitlich als Konfiguration – nicht als Summe isolierter Merkmale. Dies ermöglicht mir, Menschen über Jahrzehnte hinweg wiederzuerkennen, unabhängig von Alterung, Frisuren oder kosmetischen Veränderungen."
     },
     {
       icon: <ShieldAlert className="w-8 h-8" />,
-      title: "Alterung & Veränderung",
-      desc: "Menschen altern, Haare werden grau, Haut verändert sich, Gewicht schwankt – aber die konfigurale Struktur bleibt. Ich erkenne Gesichter über Jahrzehnte hinweg wieder, unabhängig von kosmetischen Eingriffen, Frisuren oder Lebensumständen. Diese Fähigkeit ist essenziell bei der Analyse langfristiger Identitätsänderungen in Recherchen."
+      title: "Logische Analyse",
+      desc: "Mit einem IQ von 137 und hochbegabtem Mustererkennungsvermögen durchschaute ich schon als Kind Logikbrüche in Erzählungen. Ich erkenne sofort Inkonsistenzen in Geschichten: widersprüchliche Zeitangaben, gebrochene Kausalitäten, emotionale Diskrepanzen. Diese Fähigkeit macht mich immun gegen Manipulation und Lügen – und ungeeignet für Krimiserien."
     },
     {
       icon: <Crosshair className="w-8 h-8" />,
-      title: "Desinformations-Analyse",
-      desc: "Fake-Profile und synthetische Identitäten folgen Mustern. Wenn ich Hunderte Profilbilder analysiere, erkenne ich Wiederholungen, ähnliche Gesichtsgeometrien, künstliche Texturen. Mein Gehirn registriert automatisch Inkonsistenzen, die andere übersehen – eine entscheidende Fähigkeit in der Aufdeckung von Desinformationsnetzwerken."
+      title: "Deepfake-Detektion",
+      desc: "KI-generierte Gesichter folgen anderen Mustern als echte. Wo Algorithmen Pixel analysieren, erfasse ich sofort die 'falsche' Konfiguration – die unnatürliche Symmetrie, die nicht stimmende Lichtreflexion, die zu perfekte Hautstruktur. Bei Ludenscheidt Research nutze ich das, um synthetische Inhalte und manipulierte Medien zu identifizieren."
     },
     {
       icon: <Brain className="w-8 h-8" />,
-      title: "Wissenschaftliche Methodik",
-      desc: "Die neurobiologische Basis meiner Fähigkeit ist gut erforscht (fusiformes Gesichtsareal, konfigurale Verarbeitung). Bei Ludenscheidt Research verbinde ich diese angeborene Wahrnehmung mit systematischer Dokumentation, reproduzierbaren Analyserahmen und evidenzbasierter Bewertung – für belastbare Forschungsergebnisse."
+      title: "Desinformations-Analyse",
+      desc: "Fake-Profile und Desinformationskampagnen folgen Mustern. Wenn ich komplexe Datenstrukturen analysiere, erkenne ich Wiederholungen, künstliche Texturen, narrative Inkonsistenzen. Mein Gehirn verarbeitet Informationen konfigural und registriert automatisch Anomalien – entscheidend für die Aufdeckung von Desinformationsnetzwerken."
     }
   ];
 
@@ -204,7 +204,7 @@ const ExpertiseSection = () => {
           Fähigkeiten & <br/><span className="text-black/30">Expertise</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Meine Super-Recognizer-Fähigkeiten nutze ich täglich bei Ludenscheidt Research für konkrete Aufgaben: von der Identifikation synthetischer Medien bis zur Analyse komplexer Desinformationsmuster. Hier ist, was ich praktisch umsetze – basierend auf der neurobiologischen Besonderheit meines konfiguralen Wahrnehmungssystems.
+          Mit einem IQ von 137 und der seltenen Kombination aus Super-Recognizer-Fähigkeit und hochbegabtem Mustererkennungsvermögen arbeite ich bei Ludenscheidt Research an der Schnittstelle von Kognitionswissenschaft und digitaler Medienanalyse. Hier ist, was ich praktisch umsetze – basierend auf angeborenen Fähigkeiten, die wissenschaftlich erforscht und beruflich genutzt werden.
         </p>
       </motion.div>
 
