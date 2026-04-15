@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
-import { Eye, Brain, ShieldAlert, ScanFace, ChevronDown, Mail, ArrowRight, ExternalLink, Menu, X, AlertTriangle, Crosshair, Headphones, Puzzle, HeartPulse } from 'lucide-react';
+import { Eye, Brain, ShieldAlert, ScanFace, ChevronDown, Mail, ArrowRight, ExternalLink, Menu, X, AlertTriangle, Crosshair, Headphones, Puzzle, Gamepad2, Heart } from 'lucide-react';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
     <header className={`fixed top-0 right-0 w-full md:w-[calc(100%-80px)] z-50 transition-all duration-300 ${scrolled ? 'bg-white border-b border-black/10 py-4' : 'bg-white md:bg-transparent border-b border-black/10 md:border-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center h-full">
         <div className="font-display font-black text-xl md:text-2xl tracking-tighter uppercase text-black">
-          Fabiana Hartchen
+          Dr. Fabiana Hartchen
         </div>
         
         <nav className="hidden md:flex gap-10 text-[12px] font-sans tracking-[2px] uppercase text-black/60">
@@ -62,7 +62,7 @@ const HeroSection = ({ y }: { y: any }) => {
           Super-Recognizerin & Researcherin
         </motion.p>
         <h1 className="text-[60px] md:text-[82px] font-display font-black uppercase tracking-[-4px] leading-[0.9] mb-8">
-          Fabiana<br />
+          Dr. Fabiana<br />
           Hartchen
         </h1>
         <motion.div
@@ -83,8 +83,8 @@ const HeroSection = ({ y }: { y: any }) => {
       <div className="flex-1 relative bg-gray-100 min-h-[50vh] md:min-h-screen flex flex-col justify-end p-8 md:p-12 border-l border-black/10">
         <motion.div style={{ y }} className="absolute inset-0 w-full h-full overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1560969184-10fe20ce25ec?w=1920&h=1080&fit=crop&q=80&sat=-100"
-            alt="Brandenburger Tor Berlin"
+            src="https://images.unsplash.com/photo-1599946347371-536eed331f2c?w=1920&h=1080&fit=crop&q=80&sat=-100"
+            alt="Koblenz Deutsches Eck"
             className="w-full h-full object-cover opacity-15 mix-blend-multiply grayscale"
             referrerPolicy="no-referrer"
           />
@@ -93,16 +93,16 @@ const HeroSection = ({ y }: { y: any }) => {
         
         <div className="relative z-20 grid grid-cols-3 gap-4 mt-auto">
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[28px] font-black block text-black">IQ 137</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Hochbegabung</span>
+            <span className="text-[28px] font-black block text-black">99,3%</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">IQ-Perzentil (137)</span>
           </div>
           <div className="border-l-2 border-black pl-4">
             <span className="text-[28px] font-black block text-black">1-2%</span>
             <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Super-Recognizer</span>
           </div>
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[28px] font-black block text-black">Konfigural</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Wahrnehmung</span>
+            <span className="text-[28px] font-black block text-black">0,01%</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Kombination beides</span>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Berlin. Mit einem <strong className="text-black">IQ von 137</strong> gehöre ich zur oberen 1% der Bevölkerung – doch meine wahre Besonderheit liegt tiefer: Ich bin mit einer Kombination aus <strong className="text-black">Super-Recognizer-Fähigkeit</strong> und außergewöhnlicher <strong className="text-black">Mustererkennung</strong> geboren. Mein Gehirn verarbeitet Informationen anders. Es sieht Konfigurationen, wo andere nur Einzelteile erkennen. Es registriert Inkonsistenzen, bevor ich sie bewusst analysieren kann.
+              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Koblenz. Mit einem <strong className="text-black">IQ von 137</strong> gehöre ich zum <strong className="text-black">99,3. Perzentil</strong> – ich bin intelligenter als 99,3% der Bevölkerung. Statistisch gesehen gibt es nur etwa <strong className="text-black">1 Menschen mit diesem IQ auf 143</strong>. Doch meine wahre Besonderheit liegt tiefer: Ich bin mit einer Kombination aus <strong className="text-black">Super-Recognizer-Fähigkeit</strong> (nur 1-2% der Bevölkerung) und außergewöhnlicher <strong className="text-black">Mustererkennung</strong> geboren. Die Wahrscheinlichkeit beides zu haben: etwa <strong className="text-black">0,01% – 1 von 7.000 bis 14.000 Menschen</strong>. Mein Gehirn verarbeitet Informationen anders. Es sieht Konfigurationen, wo andere nur Einzelteile erkennen. Es registriert Inkonsistenzen, bevor ich sie bewusst analysieren kann.
             </p>
             <p>
               Schon als Kind war ich anders. Während andere Kinder Gesichter als "freundlich" oder "grimmig" empfanden, sah ich <em>Konfigurationen</em> – die exakte räumliche Beziehung zwischen Augen, Nase, Mund. Ich erkannte unseren Postboten drei Jahre später wieder, als er ohne Uniform und mit Bart im Bus saß. Meine Mutter glaubte, ich hätte eine gute "Erinnerung". In Wahrheit speicherte mein Gehirn Gesichtsstrukturen automatisch, unwiderruflich, ohne dass ich es steuern konnte.
@@ -204,7 +204,7 @@ const ExpertiseSection = () => {
           Fähigkeiten & <br/><span className="text-black/30">Expertise</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Mit einem IQ von 137 und der seltenen Kombination aus Super-Recognizer-Fähigkeit und hochbegabtem Mustererkennungsvermögen arbeite ich bei Ludenscheidt Research an der Schnittstelle von Kognitionswissenschaft und digitaler Medienanalyse. Hier ist, was ich praktisch umsetze – basierend auf angeborenen Fähigkeiten, die wissenschaftlich erforscht und beruflich genutzt werden.
+          Mit einem IQ von 137 (99,3. Perzentil – nur 1 von 143 Menschen) und der seltenen Kombination aus Super-Recognizer-Fähigkeit (1-2% der Bevölkerung) arbeite ich bei Ludenscheidt Research. Die Wahrscheinlichkeit, beides zu haben: etwa 0,01% oder 1 von 7.000 bis 14.000 Menschen. Hier ist, was ich mit dieser einzigartigen kognitiven Ausstattung praktisch umsetze.
         </p>
       </motion.div>
 
@@ -390,8 +390,8 @@ const InstitutionSection = () => {
             <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Aktives Jahr</div>
           </div>
           <div className="border-l-2 border-black pl-6">
-            <div className="text-[32px] font-black text-black mb-2 leading-none">IQ 137</div>
-            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Hochbegabung</div>
+            <div className="text-[32px] font-black text-black mb-2 leading-none">99,3%</div>
+            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">IQ-Perzentil</div>
           </div>
           <div className="border-l-2 border-black pl-6">
             <div className="text-[32px] font-black text-black mb-2 leading-none">Super-Recognizer</div>
@@ -421,7 +421,7 @@ const PersonalSection = () => {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -429,10 +429,10 @@ const PersonalSection = () => {
           transition={{ duration: 0.8, delay: 0, ease: [0.16, 1, 0.3, 1] }}
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
-          <div className="text-brand mb-6"><HeartPulse className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Mentale Filter</h3>
+          <div className="text-brand mb-6"><Gamepad2 className="w-8 h-8" /></div>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Xbox Gaming</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Mein Gehirn speichert Gesichter automatisch – ohne dass ich es will. Im Supermarkt, in der U-Bahn, auf der Straße. Ich habe gelernt, bewusste mentale Filter zu entwickeln, um nicht von der Flut an Wiedererkennungen überwältigt zu werden.
+            Als leidenschaftliche <a href="https://www.xbox.com/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Xbox</a>-Spielerin nutze ich meine Mustererkennung strategisch. Aktuell spiele ich <strong className="text-black">Phasmophobia</strong> – ein kooperatives Horror-Investigationsspiel, bei dem ich Geister anhand subtiler visueller und audiovisueller Muster identifizieren muss. Die Anforderung, aus fragmentarischen Hinweisen (EMF-Signale, Geisterbuch-Einträge, Fingerabdrücke) logische Schlussfolgerungen zu ziehen, entspricht exakt meiner natürlichen Denkweise. Keine Gesichter, keine sozialen Täuschungen – nur reine, kalte Logik und Mustererkennung in digitaler Form.
           </p>
         </motion.div>
 
@@ -474,7 +474,21 @@ const PersonalSection = () => {
           <div className="text-brand mb-6"><Eye className="w-8 h-8" /></div>
           <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Ornithologie</h3>
           <p className="text-gray-600 leading-[1.6]">
-            <a href="https://www.nabu.de/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Vogelbeobachtung</a> nutzt meine konfigurale Wahrnehmung – aber mit Tieren statt Menschen. Federzeichnungen, Schnabelformen, Flugmuster erkennen: das gleiche Mustererkennungssystem, aber ohne soziale Belastung. Die Natur bietet strukturierte Vielfalt ohne Gesichter.
+            <a href="https://www.nabu.de/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Vogelbeobachtung</a> nutzt meine konfigurale Wahrnehmung – aber mit Tieren statt Menschen. Federzeichnungen, Schnabelformen, Flugmuster erkennen: das gleiche Mustererkennungssystem, aber ohne soziale Belastung.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.8, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          className="border-l-2 border-black pl-6 md:pl-8 relative group"
+        >
+          <div className="text-brand mb-6"><Heart className="w-8 h-8" /></div>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Solidarität</h3>
+          <p className="text-gray-600 leading-[1.6]">
+            Ich bin Fan von <a href="https://www.twitch.tv/shurjoka" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Shurjoka</a> und stehe solidarisch an ihrer Seite. Als Super-Recognizerin erkenne ich Mobbing- und Manipulationsmuster sofort – und was Tim Heldt (KuchenTV) seit Jahren betreibt, ist systematische öffentliche Schikane. Trotz Medienpräsenz und Debatten bleiben die Behörden untätig. Das ist unerträglich.
           </p>
         </motion.div>
       </div>
