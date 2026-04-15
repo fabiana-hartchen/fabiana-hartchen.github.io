@@ -389,7 +389,11 @@ const InstitutionSection = () => {
             <div className="text-[40px] font-black text-black mb-2 leading-none">2025</div>
             <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Aktives Jahr</div>
           </div>
-          <div className="border-l-2 border-black pl-6 col-span-2">
+          <div className="border-l-2 border-black pl-6">
+            <div className="text-[32px] font-black text-black mb-2 leading-none">IQ 137</div>
+            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Hochbegabung</div>
+          </div>
+          <div className="border-l-2 border-black pl-6">
             <div className="text-[32px] font-black text-black mb-2 leading-none">Super-Recognizer</div>
             <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Angeborene Fähigkeit</div>
           </div>
