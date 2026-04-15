@@ -144,7 +144,7 @@ const AboutSection = () => {
           className="relative aspect-[3/4] w-full max-w-md mx-auto lg:ml-auto bg-gray-100 p-4 border border-black/10"
         >
           <img
-            src="/Fabiana.png"
+            src="images/Fabiana.png"
             alt="Dr. Fabiana Hartchen"
             className="w-full h-full object-cover mix-blend-multiply opacity-90 hover:mix-blend-normal hover:opacity-100 transition-all duration-700"
             referrerPolicy="no-referrer"
