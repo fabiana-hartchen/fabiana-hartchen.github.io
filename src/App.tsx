@@ -16,7 +16,7 @@ const Navbar = () => {
     <header className={`fixed top-0 right-0 w-full md:w-[calc(100%-80px)] z-50 transition-all duration-300 ${scrolled ? 'bg-white border-b border-black/10 py-4' : 'bg-white md:bg-transparent border-b border-black/10 md:border-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center h-full">
         <div className="font-display font-black text-xl md:text-2xl tracking-tighter uppercase text-black">
-          Fabian Hartchen
+          Fabiana Hartchen
         </div>
         
         <nav className="hidden md:flex gap-10 text-[12px] font-sans tracking-[2px] uppercase text-black/60">
@@ -59,10 +59,10 @@ const HeroSection = ({ y }: { y: any }) => {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="text-brand font-bold uppercase text-[12px] tracking-[2px] mb-6"
         >
-          Super-Recognizer & Researcher
+          Super-Recognizerin & Researcherin
         </motion.p>
         <h1 className="text-[60px] md:text-[82px] font-display font-black uppercase tracking-[-4px] leading-[0.9] mb-8">
-          Fabian <br />
+          Fabiana<br />
           Hartchen
         </h1>
         <motion.div
@@ -121,7 +121,7 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Fabian Hartchen</strong>, Researcher bei <a href="https://ludenscheidt-research.github.io" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> in Berlin, und gehöre zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong>, die als <strong className="text-black">Super-Recognizer</strong> geboren wurden. Das bedeutet: Mein Gehirn verarbeitet Gesichter anders – nicht als Summe von Merkmalen, sondern als untrennbare Konfiguration.
+              Ich bin <strong className="text-black font-bold">Fabiana Hartchen</strong>, Researcher bei <a href="https://ludenscheidt-research.github.io" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> in Berlin, und gehöre zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong>, die als <strong className="text-black">Super-Recognizer</strong> geboren wurden. Das bedeutet: Mein Gehirn verarbeitet Gesichter anders – nicht als Summe von Merkmalen, sondern als untrennbare Konfiguration.
             </p>
             <p>
               In der Praxis erlebe ich das ständig. Ich erkenne den Mann vom Bäcker um die Ecke, den ich vor drei Jahren einmal gesehen habe. Ich sehe eine Schulfreundin aus der Grundschule auf der Straße – dreißig Jahre später, mit grauen Haaren, anderen Kleidern, anderer Haltung. Und ich weiß sofort: Das ist sie. Keine Anstrengung, kein bewusstes Vergleichen. Es ist einfach <em>da</em>.
@@ -140,7 +140,7 @@ const AboutSection = () => {
         >
           <img
             src="images/Fabiana.png"
-            alt="Fabian Hartchen"
+            alt="Fabiana Hartchen"
             className="w-full h-full object-cover mix-blend-multiply opacity-90 hover:mix-blend-normal hover:opacity-100 transition-all duration-700"
             referrerPolicy="no-referrer"
             onError={(e) => {
@@ -149,7 +149,7 @@ const AboutSection = () => {
           />
           <div className="absolute inset-0 bg-diagonal-pattern opacity-10 pointer-events-none"></div>
           <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-sm border border-black/10 p-4">
-            <div className="text-black font-bold uppercase tracking-[1px]">Fabian Hartchen (2025)</div>
+            <div className="text-black font-bold uppercase tracking-[1px]">Fabiana Hartchen (2025)</div>
           </div>
         </motion.div>
       </div>
@@ -498,7 +498,7 @@ const Footer = () => {
       
       <div className="border-t border-black/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="text-[10px] text-black/30 uppercase tracking-[2px]">
-          &copy; {new Date().getFullYear()} FABIAN HARTCHEN
+          &copy; {new Date().getFullYear()} FABIANA HARTCHEN
         </div>
         <div className="text-[10px] text-black/30 uppercase tracking-[2px]">
           PRIVATES PORTFOLIO
