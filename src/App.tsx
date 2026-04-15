@@ -477,7 +477,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
         <div>
           <div className="font-display font-black text-xl tracking-tighter uppercase text-black mb-4">
-            Fabian Hartchen
+            Fabiana Hartchen
           </div>
           <div className="font-bold italic text-black/50 text-[12px] tracking-[1px] mb-6">
             <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="hover:text-brand transition-colors">LUDENSCHEIDT RESEARCH</a>
