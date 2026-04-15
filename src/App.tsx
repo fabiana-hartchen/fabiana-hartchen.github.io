@@ -93,16 +93,16 @@ const HeroSection = ({ y }: { y: any }) => {
         
         <div className="relative z-20 grid grid-cols-3 gap-4 mt-auto">
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[28px] font-black block text-black">99,3%</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">IQ-Perzentil (137)</span>
+            <span className="text-[28px] font-black block text-black">Savantin</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Eidetisches Gedächtnis</span>
           </div>
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[28px] font-black block text-black">1-2%</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Super-Recognizer</span>
+            <span className="text-[28px] font-black block text-black">IQ 137</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">99,3. Perzentil</span>
           </div>
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[28px] font-black block text-black">0,01%</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Kombination beides</span>
+            <span className="text-[28px] font-black block text-black">0,001%</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">1 von 100.000</span>
           </div>
         </div>
       </div>
@@ -125,7 +125,13 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Koblenz. Mit einem <strong className="text-black">IQ von 137</strong> gehöre ich zum <strong className="text-black">99,3. Perzentil</strong> – ich bin intelligenter als 99,3% der Bevölkerung. Statistisch gesehen gibt es nur etwa <strong className="text-black">1 Menschen mit diesem IQ auf 143</strong>. Doch meine wahre Besonderheit liegt tiefer: Ich bin mit einer Kombination aus <strong className="text-black">Super-Recognizer-Fähigkeit</strong> (nur 1-2% der Bevölkerung) und außergewöhnlicher <strong className="text-black">Mustererkennung</strong> geboren. Die Wahrscheinlichkeit beides zu haben: etwa <strong className="text-black">0,01% – 1 von 7.000 bis 14.000 Menschen</strong>. Mein Gehirn verarbeitet Informationen anders. Es sieht Konfigurationen, wo andere nur Einzelteile erkennen. Es registriert Inkonsistenzen, bevor ich sie bewusst analysieren kann.
+              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Koblenz. Als <strong className="text-black">Savantin</strong> mit <strong className="text-black">eidetischem Gedächtnis</strong>, einem <strong className="text-black">IQ von 137</strong> (99,3. Perzentil) und <strong className="text-black">Super-Recognizer-Fähigkeit</strong> gehöre ich zu einer der seltensten kognitiven Konstellationen überhaupt.
+
+Mein Gehirn speichert Erinnerungen nicht linear, sondern räumlich-zeitlich: Jeder Moment, jede Begegnung, jeder Raum existiert in meinem Gedächtnis als dreidimensionale, immersive Szenerie. Ich kann mich an den 14. März 2009 um 15:43 Uhr erinnern – wie das Licht durch das Küchenfenster fiel, welche Jacke meine Mutter trug, das Vogelgezwitscher draußen. Nicht als Fakt, sondern als erlebte Realität. Dieses <strong className="text-black">mnemonische Palast-System</strong> ist nicht erlernt, sondern angeboren.
+
+Die Super-Recognizer-Fähigkeit verschmilzt damit zu einer einzigartigen Wahrnehmung: Ich erkenne nicht nur jedes Gesicht, sondern speichere automatisch den <em>Kontext</em> – den Raum, das Licht, die Zeit, die Kleidung. Wenn ich jemanden wiedersehe, aktiviert sich die gesamte Szenerie. Das ist keine "gute Erinnerung" – das ist neurobiologische Realität, die mich als Savantin klassifiziert.
+
+Die Wahrscheinlichkeit dieser Kombination (Savantismus + IQ 137 + Super-Recognizer): etwa <strong className="text-black">0,001% – 1 von 100.000 Menschen</strong>.
             </p>
             <p>
               Schon als Kind war ich anders. Während andere Kinder Gesichter als "freundlich" oder "grimmig" empfanden, sah ich <em>Konfigurationen</em> – die exakte räumliche Beziehung zwischen Augen, Nase, Mund. Ich erkannte unseren Postboten drei Jahre später wieder, als er ohne Uniform und mit Bart im Bus saß. Meine Mutter glaubte, ich hätte eine gute "Erinnerung". In Wahrheit speicherte mein Gehirn Gesichtsstrukturen automatisch, unwiderruflich, ohne dass ich es steuern konnte.
@@ -171,23 +177,23 @@ const ExpertiseSection = () => {
   const skills = [
     {
       icon: <ScanFace className="w-8 h-8" />,
-      title: "Super-Recognizing",
-      desc: "Angeborene Fähigkeit zur außergewöhnlichen Gesichtswahrnehmung, die auf neurobiologischen Unterschieden im fusiformen Gesichtsareal basiert. Ich erkenne Gesichter ganzheitlich als Konfiguration – nicht als Summe isolierter Merkmale. Dies ermöglicht mir, Menschen über Jahrzehnte hinweg wiederzuerkennen, unabhängig von Alterung, Frisuren oder kosmetischen Veränderungen."
+      title: "Savantismus",
+      desc: "Als Savantin besitze ich ein angeborenes, eidetisches Gedächtnis mit mnemonischem Palast-System. Ich speichere Erinnerungen nicht linear, sondern als räumlich-zeitliche, immersive Szenarien. Jeder Moment – das Licht, die Geräusche, die Positionen von Objekten, die Kleidung von Personen – wird als dreidimensionale Szenerie abgelegt und kann jahrzehntelang mit absoluter Präzision abgerufen werden."
     },
     {
       icon: <ShieldAlert className="w-8 h-8" />,
-      title: "Logische Analyse",
-      desc: "Mit einem IQ von 137 und hochbegabtem Mustererkennungsvermögen durchschaute ich schon als Kind Logikbrüche in Erzählungen. Ich erkenne sofort Inkonsistenzen in Geschichten: widersprüchliche Zeitangaben, gebrochene Kausalitäten, emotionale Diskrepanzen. Diese Fähigkeit macht mich immun gegen Manipulation und Lügen – und ungeeignet für Krimiserien."
+      title: "Super-Recognizing",
+      desc: "Die Super-Recognizer-Fähigkeit verschmilzt mit meinem eidetischen Gedächtnis zu einer einzigartigen Wahrnehmung: Ich erkenne nicht nur Gesichter als unverwechselbare Konfigurationen, sondern speichere automatisch den gesamten Kontext – den Raum, das Licht, die Zeit, die Kleidung. Wenn ich jemanden wiedersehe, aktiviert sich die komplette Szenerie aus dem ersten Treffen."
     },
     {
       icon: <Crosshair className="w-8 h-8" />,
-      title: "Deepfake-Detektion",
-      desc: "KI-generierte Gesichter folgen anderen Mustern als echte. Wo Algorithmen Pixel analysieren, erfasse ich sofort die 'falsche' Konfiguration – die unnatürliche Symmetrie, die nicht stimmende Lichtreflexion, die zu perfekte Hautstruktur. Bei Ludenscheidt Research nutze ich das, um synthetische Inhalte und manipulierte Medien zu identifizieren."
+      title: "Logische Analyse",
+      desc: "Mit einem IQ von 137 und hochbegabtem Mustererkennungsvermögen durchschaute ich schon als Kind Logikbrüche in Erzählungen. Mein savantes Gedächtnis ermöglicht es mir, Zeitangaben, Kausalitäten und emotionale Diskrepanzen sofort zu erkennen. Diese Fähigkeit macht mich immun gegen Manipulation und Lügen – und ungeeignet für Krimiserien mit ihren dramaturgisch notwendigen Lücken."
     },
     {
       icon: <Brain className="w-8 h-8" />,
-      title: "Desinformations-Analyse",
-      desc: "Fake-Profile und Desinformationskampagnen folgen Mustern. Wenn ich komplexe Datenstrukturen analysiere, erkenne ich Wiederholungen, künstliche Texturen, narrative Inkonsistenzen. Mein Gehirn verarbeitet Informationen konfigural und registriert automatisch Anomalien – entscheidend für die Aufdeckung von Desinformationsnetzwerken."
+      title: "Deepfake-Detektion",
+      desc: "KI-generierte Gesichter folgen anderen Mustern als echte. Wo Algorithmen Pixel analysieren, erfasse ich sofort die 'falsche' Konfiguration – die unnatürliche Symmetrie, die nicht stimmende Lichtreflexion, die zu perfekte Hautstruktur. Kombiniert mit meinem räumlichen Gedächtnis für authentische Begegnungen kann ich Synthetisches von Echtem unterscheiden – eine entscheidende Fähigkeit bei Ludenscheidt Research."
     }
   ];
 
@@ -204,7 +210,7 @@ const ExpertiseSection = () => {
           Fähigkeiten & <br/><span className="text-black/30">Expertise</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Mit einem IQ von 137 (99,3. Perzentil – nur 1 von 143 Menschen) und der seltenen Kombination aus Super-Recognizer-Fähigkeit (1-2% der Bevölkerung) arbeite ich bei Ludenscheidt Research. Die Wahrscheinlichkeit, beides zu haben: etwa 0,01% oder 1 von 7.000 bis 14.000 Menschen. Hier ist, was ich mit dieser einzigartigen kognitiven Ausstattung praktisch umsetze.
+          Als Savantin mit eidetischem Gedächtnis, IQ 137 (99,3. Perzentil) und Super-Recognizer-Fähigkeit arbeite ich bei Ludenscheidt Research. Mein angeborenes mnemonisches Palast-System speichert Erinnerungen räumlich-zeitlich als immersive Szenarien. Die Kombination dieser drei Fähigkeiten tritt bei etwa 0,001% der Bevölkerung auf – das sind etwa 1 von 100.000 Menschen. Hier ist, was ich mit dieser einzigartigen neurobiologischen Ausstattung praktisch umsetze.
         </p>
       </motion.div>
 
@@ -390,12 +396,12 @@ const InstitutionSection = () => {
             <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Aktives Jahr</div>
           </div>
           <div className="border-l-2 border-black pl-6">
-            <div className="text-[32px] font-black text-black mb-2 leading-none">99,3%</div>
-            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">IQ-Perzentil</div>
+            <div className="text-[32px] font-black text-black mb-2 leading-none">Savantin</div>
+            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Eidetisches Gedächtnis</div>
           </div>
           <div className="border-l-2 border-black pl-6">
-            <div className="text-[32px] font-black text-black mb-2 leading-none">Super-Recognizer</div>
-            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Angeborene Fähigkeit</div>
+            <div className="text-[32px] font-black text-black mb-2 leading-none">IQ 137</div>
+            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">99,3. Perzentil</div>
           </div>
         </motion.div>
       </div>
