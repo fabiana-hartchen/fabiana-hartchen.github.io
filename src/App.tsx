@@ -59,17 +59,12 @@ const HeroSection = ({ y }: { y: any }) => {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="text-brand font-bold uppercase text-[12px] tracking-[2px] mb-6"
         >
-          Super-Recognizerin & Kognitive Neurowissenschaftlerin
+          Super-Recognizer & Researcher
         </motion.p>
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-          className="text-[60px] md:text-[82px] font-display font-black uppercase tracking-[-4px] leading-[0.9] mb-8"
-        >
-          Analytische <br />
-          Methodik
-        </motion.h1>
+        <h1 className="text-[60px] md:text-[82px] font-display font-black uppercase tracking-[-4px] leading-[0.9] mb-8">
+          Dr. Fabiana <br />
+          Hartchen
+        </h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -99,11 +94,11 @@ const HeroSection = ({ y }: { y: any }) => {
         <div className="relative z-20 grid grid-cols-2 gap-6 mt-auto">
           <div className="border-l-2 border-black pl-4">
             <span className="text-[32px] font-black block text-black">1-2%</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Der Bevölkerung</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Super-Recognizer weltweit</span>
           </div>
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[32px] font-black block text-black">99.9%</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Präzisionsrate</span>
+            <span className="text-[32px] font-black block text-black">Ganzheitlich</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Wahrnehmungsstrategie</span>
           </div>
         </div>
       </div>
@@ -126,13 +121,13 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Mein Name ist <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>. Als Junior Researcher bei <strong className="text-black font-bold">Ludenscheidt Research</strong> widme ich mich der Entschlüsselung digitaler Täuschungen. Ich gehöre zu den 1-2% der Bevölkerung, die als <strong className="text-black font-bold">Super-Recognizer</strong> klassifiziert werden – eine neurologische Besonderheit, die mir eine übermenschliche Präzision bei der Gesichtserkennung verleiht.
+              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong> und arbeite als Researcher bei <a href="https://ludenscheidt-research.github.io" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a>. Zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong> zähle ich zu den sogenannten <strong className="text-black">Super-Recognizern</strong> – Menschen mit einer angeborenen, außergewöhnlichen Fähigkeit zur Gesichtswahrnehmung.
             </p>
             <p>
-              Nach meiner Promotion in <strong className="text-black font-bold">Kognitiver Neurowissenschaft an der Universität Bonn</strong> habe ich meine Forschung auf die Schnittstelle zwischen menschlicher Kognition und künstlicher Intelligenz fokussiert. Während moderne KI-Systeme bei der Erkennung von Deepfakes und synthetischen Medien oft an ihre Grenzen stoßen, erlaubt mir meine einzigartige neuronale Verarbeitung, subtilste Unstimmigkeiten in Mimik, Hautstruktur und Augenbewegungen zu identifizieren.
+              Wissenschaftliche Studien (u.a. veröffentlicht im <em>British Journal of Psychology</em>) zeigen, dass Super-Recognizer Gesichter ganzheitlich wahrnehmen, statt isolierte Merkmale zu analysieren. Diese neurobiologisch bedingte Besonderheit ermöglicht es mir, selbst nach Jahren noch Gesichter wiederzuerkennen, die ich nur flüchtig gesehen habe – eine Fähigkeit, die auch von Polizeibehörden zunehmend nachgefragt wird.
             </p>
             <p>
-              In einer Zeit, in der Fake-News und Desinformationskampagnen zunehmend auf KI-generierte Inhalte setzen, nutze ich diese Fähigkeit, um die Wahrheit hinter dem Pixel aufzudecken und die Mechanismen der sublimativen Beeinflussung zu erforschen.
+              Bei Ludenscheidt Research setze ich diese Fähigkeit ein, um visuelle Inhalte systematisch zu analysieren und Muster in digitalen Medien zu identifizieren. Meine tägliche Arbeit umfasst die Dokumentation visueller Phänomene, die Entwicklung methodischer Standards und die Verbindung von kognitiver Wahrnehmungsforschung mit praktischer Medienanalyse.
             </p>
           </div>
         </motion.div>
@@ -155,10 +150,10 @@ const AboutSection = () => {
           <div className="absolute inset-0 bg-diagonal-pattern opacity-10 pointer-events-none"></div>
           <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-sm border border-black/10 p-4">
             <div className="text-[10px] text-brand uppercase tracking-[2px] mb-1 flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-brand rounded-full animate-pulse"></span>
-              Identität verifiziert
+              <span className="w-1.5 h-1.5 bg-brand rounded-full"></span>
+              Dr. Fabiana Hartchen
             </div>
-            <div className="text-black font-bold uppercase tracking-[1px]">Dr. Fabiana Hartchen</div>
+            <div className="text-black font-bold uppercase tracking-[1px]">Akademisches Portfolio</div>
           </div>
         </motion.div>
       </div>
@@ -170,23 +165,23 @@ const ExpertiseSection = () => {
   const skills = [
     {
       icon: <ScanFace className="w-8 h-8" />,
-      title: "Gesichtserkennung & KI-Detektion",
-      desc: "Die Identifikation von synthetischen Gesichtern (Deepfakes, GAN-generierte Porträts) durch die Analyse mikroskopischer Inkonsistenzen in Belichtung, Asymmetrie und Textur. Wo algorithmische Detektoren durch neue KI-Modelle ausgetrickst werden, erkennt mein Gehirn die unnatürliche 'Uncanny Valley'-Signatur mit 99,9%iger Präzision."
+      title: "Super-Recognizing",
+      desc: "Angeborene Fähigkeit zur außergewöhnlichen Gesichtswahrnehmung, die auf neurobiologischen Unterschieden im fusiformen Gesichtsareal basiert. Im Gegensatz zu herkömmlicher Analyse werden Gesichter ganzheitlich erfasst, nicht isolierte Merkmale betrachtet. Dies ermöglicht die Wiedererkennung von Gesichtern auch nach Jahren oder aus ungünstigen Perspektiven."
     },
     {
       icon: <ShieldAlert className="w-8 h-8" />,
-      title: "Fake-News-Analyse",
-      desc: "Untersuchung visueller Medien in Nachrichtenkontexten auf Manipulationen. Durch den Abgleich von biometrischen Merkmalen über verschiedene, oft qualitativ minderwertige Quellen hinweg, verifiziere ich die Authentizität von Bild- und Videomaterial in Echtzeit."
+      title: "Ganzheitliche Analyse",
+      desc: "Wissenschaftlich belegte Wahrnehmungsstrategie, bei der Gesichter als Gesamtkonfiguration verarbeitet werden. Studien des British Journal of Psychology zeigen, dass Super-Recognizer durch diese ganzheitliche Betrachtung Details erfassen, die bei isolierter Merkmalanalyse übersehen werden."
     },
     {
       icon: <Crosshair className="w-8 h-8" />,
-      title: "Desinformationsbekämpfung",
-      desc: "Identifikation von 'Fake-Influencern' und synthetischen Identitäten. In groß angelegten, staatlichen oder privaten Desinformationskampagnen werden oft hunderte KI-generierte Profile genutzt. Ich isoliere die wiederkehrenden Artefakte und entlarve das Netzwerk dahinter."
+      title: "Langzeitwiedererkennung",
+      desc: "Fähigkeit, Gesichter selbst nach langer Zeit oder nach flüchtigem Kontakt wiederzuerkennen. Diese Eigenschaft wird zunehmend von Polizeibehörden und Sicherheitsdiensten nachgefragt, da sie bei der Identifikation in großen Menschenmengen oder bei der Analyse von Aufnahmematerial unterstützt."
     },
     {
       icon: <Brain className="w-8 h-8" />,
-      title: "Sublimative Beeinflussung",
-      desc: "Erforschung, wie subtile, oft KI-gesteuerte Veränderungen in der visuellen Darstellung von Personen (z.B. Mikromimik in politischen Kampagnen) die unbewusste Wahrnehmung und Meinungsbildung von Betrachtern manipulieren."
+      title: "Angewandte Forschung",
+      desc: "Verbindung neurobiologischer Grundlagenforschung mit praktischer Medienanalyse bei Ludenscheidt Research. Systematische Dokumentation visueller Phänomene und Entwicklung methodischer Standards für die Bewertung digitaler Inhalte unter Einbeziehung kognitiver Wahrnehmungsmechanismen."
     }
   ];
 
@@ -203,7 +198,7 @@ const ExpertiseSection = () => {
           Fähigkeiten & <br/><span className="text-black/30">Expertise</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Meine Forschung setzt dort an, wo algorithmische Mustererkennung an ihre Grenzen stößt. Eine seltene Kombination aus angeborener Fähigkeit und wissenschaftlicher Methodik.
+          Als Super-Recognizer verfüge ich über eine seltene, neurobiologisch bedingte Fähigkeit zur Gesichtswahrnehmung, die ich in meiner täglichen Arbeit bei Ludenscheidt Research einsetze. Diese Fähigkeiten sind durch wissenschaftliche Studien belegt und werden zunehmend in Sicherheits- und Forschungskontexten nachgefragt.
         </p>
       </motion.div>
 
@@ -235,9 +230,9 @@ const InteractiveDemoSection = () => {
   const [activeSpot, setActiveSpot] = useState<number | null>(null);
 
   const spots = [
-    { id: 1, x: 35, y: 45, title: "Pupillen-Asymmetrie", desc: "KI-Modelle haben oft Schwierigkeiten, perfekt runde und symmetrische Pupillen mit korrekten Lichtreflexionen zu generieren." },
-    { id: 2, x: 65, y: 30, title: "Unnatürlicher Haaransatz", desc: "Der Übergang zwischen Haut und Haaren verschwimmt oft oder weist unlogische Strähnenverläufe auf." },
-    { id: 3, x: 75, y: 60, title: "Inkonsistente Beleuchtung", desc: "Schattenwurf am Ohr oder Hals stimmt nicht mit der primären Lichtquelle im Auge überein." }
+    { id: 1, x: 35, y: 45, title: "Ganzheitliche Konfiguration", desc: "Super-Recognizer erfassen Gesichter als Gesamtkonfiguration, nicht als Summe isolierter Merkmale. Das fusiforme Gesichtsareal im Gehirn verarbeitet die räumlichen Beziehungen zwischen Augen, Nase und Mund als Einheit." },
+    { id: 2, x: 65, y: 30, title: "Konfigurale Verarbeitung", desc: "Wissenschaftliche Studien zeigen: Während normale Betrachter oft auf einzelne Merkmale (z.B. Augenbrauenform) fokussieren, verarbeiten Super-Recognizer die Konfiguration – die präzise Anordnung und Proportion aller Elemente zueinander." },
+    { id: 3, x: 75, y: 60, title: "Holistische Erfassung", desc: "Diese ganzheitliche Wahrnehmungsstrategie ermöglicht es, Gesichter auch nach langer Zeit wiederzuerkennen oder aus ungünstigen Winkeln zu identifizieren – eine Fähigkeit, die bei der Analyse großer Datenmengen entscheidend ist." }
   ];
 
   return (
@@ -251,14 +246,14 @@ const InteractiveDemoSection = () => {
           className="mb-16"
         >
           <p className="text-brand font-bold text-[12px] uppercase tracking-[2px] mb-4 flex items-center gap-3">
-            <span className="w-2 h-2 bg-brand rounded-full animate-pulse"></span>
-            Interaktive Analyse
+            <span className="w-2 h-2 bg-brand rounded-full"></span>
+            Wahrnehmungsstrategie
           </p>
           <h2 className="text-[40px] md:text-[60px] font-display font-black uppercase tracking-[-2px] leading-[0.9] mb-6 text-black">
-            Visuelle <br/><span className="text-black/30">Verifikation</span>
+            Ganzheitliche <br/><span className="text-black/30">Analyse</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl">
-            Künstliche neuronale Netze suchen nach antrainierten Mustern. Als Super-Recognizerin erfasse ich visuelle Inkonsistenzen intuitiv und ganzheitlich. Die folgende Demo veranschaulicht typische Artefakte synthetischer Medien. Klicke auf die markierten Bereiche, um die Analyse zu starten.
+            Die wissenschaftliche Grundlage des Super-Recognizings liegt in der ganzheitlichen (holistischen) Wahrnehmung. Im Gegensatz zu analytischen Betrachtern, die isolierte Merkmale untersuchen, erfassen Super-Recognizer Gesichter als Konfiguration. Klicke auf die markierten Bereiche, um diesen Unterschied zu verstehen.
           </p>
         </motion.div>
 
@@ -294,7 +289,7 @@ const InteractiveDemoSection = () => {
 
           <div className="bg-gray-50 border border-black/10 p-8 flex flex-col">
             <h3 className="text-[20px] font-black uppercase tracking-[-1px] mb-6 border-b border-black/10 pb-4 text-black">
-              Analyse-Protokoll
+              Detail-Informationen
             </h3>
             
             {activeSpot ? (
@@ -305,7 +300,7 @@ const InteractiveDemoSection = () => {
                 className="flex-1"
               >
                 <div className="text-brand mb-4">
-                  <AlertTriangle className="w-8 h-8" />
+                  <ScanFace className="w-8 h-8" />
                 </div>
                 <h4 className="text-[16px] font-bold uppercase tracking-[1px] mb-4 text-black">
                   {spots.find(s => s.id === activeSpot)?.title}
@@ -314,7 +309,7 @@ const InteractiveDemoSection = () => {
                   {spots.find(s => s.id === activeSpot)?.desc}
                 </p>
                 <div className="mt-8 p-4 bg-brand/10 border border-brand/20 text-[12px] text-brand uppercase tracking-[1px]">
-                  Status: Synthetisches Artefakt bestätigt
+                  Detail analysiert
                 </div>
               </motion.div>
             ) : (
@@ -345,7 +340,7 @@ const QuoteSection = () => {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
           className="text-[40px] md:text-[60px] font-display font-black uppercase tracking-[-2px] leading-[1] text-black"
         >
-          "Technologie liefert Wahrscheinlichkeiten. Menschliche Kognition liefert <span className="text-brand">Gewissheit</span>."
+          "Isolierte Merkmale täuschen. <span className="text-brand">Ganzheitliche Konfiguration</span> erkennt die Wahrheit."
         </motion.blockquote>
       </div>
     </section>
@@ -363,17 +358,17 @@ const InstitutionSection = () => {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="text-brand font-bold text-[12px] uppercase tracking-[2px] mb-6 flex items-center gap-3">
-            <span className="w-2 h-2 bg-brand rounded-full animate-pulse"></span>
+            <span className="w-2 h-2 bg-brand rounded-full"></span>
             Aktuelle Position
           </p>
           <h2 className="text-[50px] md:text-[70px] font-display font-black uppercase tracking-[-3px] leading-[0.9] mb-8 text-black">
-            Ludenscheidt Research
+            Ludenscheidt <br/> Research
           </h2>
           <p className="text-gray-600 text-lg leading-[1.6] mb-10">
-            Seit Januar 2024 bin ich als Junior Researcher im Team von Ludenscheidt Research (LR) tätig. Wir sind eine spezialisierte Institution, die sich mit der Erforschung und Analyse von Fake-News, Desinformation und sublimativer Beeinflussung durch Medien beschäftigt.
+            Bei <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> widme ich mich der praktischen und theoretischen Erforschung digitaler Medienphänomene. Meine tägliche Arbeit umfasst die systematische Analyse visueller Inhalte, die Dokumentation von Mustern in digitalen Kommunikationsstrukturen und die Entwicklung methodischer Ansätze zur Bewertung von Medienauthentizität. Dabei arbeite ich eng mit dem interdisziplinären Team zusammen, um Forschungsergebnisse in nachvollziehbare Analysen zu überführen und wissenschaftliche Standards in der praktischen Medienbewertung anzuwenden.
           </p>
-          <a href="#research" className="inline-flex items-center gap-4 px-8 py-4 bg-black text-white font-bold uppercase text-[12px] tracking-[2px] hover:bg-gray-800 transition-colors">
-            Mehr über LR erfahren <ArrowRight className="w-4 h-4" />
+          <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="inline-flex items-center gap-4 px-8 py-4 bg-black text-white font-bold uppercase text-[12px] tracking-[2px] hover:bg-gray-800 transition-colors">
+            Ludenscheidt Research <ArrowRight className="w-4 h-4" />
           </a>
         </motion.div>
         <motion.div
@@ -384,16 +379,16 @@ const InstitutionSection = () => {
           className="grid grid-cols-2 gap-8 md:gap-12"
         >
           <div className="border-l-2 border-black pl-6">
-            <div className="text-[40px] font-black text-black mb-2 leading-none">2024</div>
-            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Teambeitritt</div>
+            <div className="text-[40px] font-black text-black mb-2 leading-none">LR</div>
+            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Ludenscheidt Research</div>
           </div>
           <div className="border-l-2 border-black pl-6">
-            <div className="text-[40px] font-black text-black mb-2 leading-none">1-2%</div>
-            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Der Bevölkerung</div>
+            <div className="text-[40px] font-black text-black mb-2 leading-none">2025</div>
+            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Aktives Jahr</div>
           </div>
           <div className="border-l-2 border-black pl-6 col-span-2">
-            <div className="text-[32px] font-black text-black mb-2 leading-none">Dr. rer. nat.</div>
-            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Kognitive Neurowissenschaft, Uni Bonn</div>
+            <div className="text-[32px] font-black text-black mb-2 leading-none">Dr.</div>
+            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Akademischer Grad</div>
           </div>
         </motion.div>
       </div>
@@ -412,10 +407,10 @@ const PersonalSection = () => {
         className="mb-16 md:mb-24"
       >
         <h2 className="text-[50px] md:text-[70px] font-display font-black uppercase tracking-[-3px] leading-[0.9] mb-6 text-black">
-          Hinter der <br/><span className="text-black/30">Fassade</span>
+          Persönliches <br/><span className="text-black/30">Interessen</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Die ständige Analyse von Gesichtern fordert ihren Tribut. Ein Einblick in meinen Alltag, meine Bewältigungsstrategien und die absolute Notwendigkeit von Achtsamkeit.
+          Neben der akademischen Arbeit lege ich Wert auf ausgewogene Work-Life-Balance. Hier ein Einblick in meine persönlichen Interessen und Aktivitäten.
         </p>
       </motion.div>
 
@@ -428,9 +423,9 @@ const PersonalSection = () => {
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
           <div className="text-brand mb-6"><HeartPulse className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Achtsamkeit & Psyche</h3>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Balance & Achtsamkeit</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Seit einigen Jahren kann ich keine Nachrichten wie die Tagesschau oder Reportagen in der ARD Mediathek mehr schauen. Meine natürliche Deepfake-Erkennung lässt sich nicht abschalten, was psychisch extrem stresst. Daher bin ich in regelmäßiger psychiatrischer Behandlung und besuche die Ergotherapie für Achtsamkeits-Training. Denn man muss stets achtsam sein! Achtsamkeit ist wichtig!
+            Die intensive Beschäftigung mit komplexen wissenschaftlichen Themen erfordert bewusste Auszeiten. Ich praktiziere Achtsamkeit und setze auf ausgewogene Routinen zur Stressbewältigung und mentalen Erholung.
           </p>
         </motion.div>
 
@@ -442,9 +437,9 @@ const PersonalSection = () => {
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
           <div className="text-brand mb-6"><Headphones className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Musikalischer Ausgleich</h3>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Musik & Kultur</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Um meinem Gehirn eine Pause von der visuellen Überstimulation zu geben, flüchte ich mich in die Musik. Am liebsten höre ich Tracks von <a href="https://open.spotify.com/artist/2Om0GfadCZSPxA6gDFMYUs" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4">Lil Keen</a>, <a href="https://open.spotify.com/artist/2Lz9H6cgFrZtpArDLQ1WE1" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4">Maytrixx</a> oder <a href="https://open.spotify.com/artist/3WiX1u4IpVintfUX7Qze06" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4">Raket One</a>.
+            Musik ist ein wesentlicher Teil meines Lebens – sei es beim Konzentrieren während der Arbeit oder zur Entspannung. Ich höre gerne verschiedene Genres und entdecke neue Künstler.
           </p>
         </motion.div>
 
@@ -456,9 +451,9 @@ const PersonalSection = () => {
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
           <div className="text-brand mb-6"><Puzzle className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Zahlenrätsel</h3>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Logik & Rätsel</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Wenn die visuelle Mustererkennung überlastet ist, wechsle ich zur reinen Logik. Zahlenrätsel sind für mich eine Form der Meditation. Sie bieten klare, unbestreitbare Wahrheiten in einer Welt, die zunehmend aus synthetischen Illusionen besteht.
+            Logikrätsel und Denksportaufgaben bieten mir eine angenehme Abwechslung zur akademischen Arbeit. Sie trainieren das analytische Denken auf spielerische Weise.
           </p>
         </motion.div>
       </div>
@@ -475,11 +470,11 @@ const Footer = () => {
             Dr. F. Hartchen
           </div>
           <div className="font-bold italic text-black/50 text-[12px] tracking-[1px] mb-6">
-            LUDENSCHEIDT RESEARCH (LR)
+            <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="hover:text-brand transition-colors">LUDENSCHEIDT RESEARCH</a>
           </div>
           <div className="flex gap-6">
-            <a href="mailto:dr.hartchen@ludenscheidt-research.de" className="text-black/40 hover:text-brand transition-colors"><Mail className="w-5 h-5" /></a>
-            <a href="https://ludenscheidt-research.de" target="_blank" rel="noreferrer" className="text-black/40 hover:text-brand transition-colors"><ExternalLink className="w-5 h-5" /></a>
+            <a href="mailto:contact@fabiana-hartchen.de" className="text-black/40 hover:text-brand transition-colors"><Mail className="w-5 h-5" /></a>
+            <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black/40 hover:text-brand transition-colors"><ExternalLink className="w-5 h-5" /></a>
           </div>
         </div>
         
@@ -496,7 +491,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} DR. FABIANA HARTCHEN
         </div>
         <div className="text-[10px] text-black/30 uppercase tracking-[2px]">
-          STRICTLY CONFIDENTIAL
+          PRIVATES PORTFOLIO
         </div>
       </div>
     </footer>
@@ -512,7 +507,7 @@ export default function App() {
       {/* Sidebar */}
       <aside className="hidden md:flex fixed left-0 top-0 bottom-0 w-[80px] border-r border-black/10 flex-col justify-center items-center z-50 bg-white">
         <div className="[writing-mode:vertical-rl] rotate-180 uppercase tracking-[8px] text-[10px] text-black/30 whitespace-nowrap">
-          LUDENSCHEIDT RESEARCH • 2024
+          LUDENSCHEIDT RESEARCH • 2025
         </div>
       </aside>
       
