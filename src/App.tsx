@@ -91,14 +91,18 @@ const HeroSection = ({ y }: { y: any }) => {
         </motion.div>
         <div className="absolute inset-0 bg-diagonal-pattern opacity-10 z-10"></div>
         
-        <div className="relative z-20 grid grid-cols-2 gap-6 mt-auto">
+        <div className="relative z-20 grid grid-cols-3 gap-4 mt-auto">
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[32px] font-black block text-black">1-2%</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Super-Recognizer weltweit</span>
+            <span className="text-[28px] font-black block text-black">IQ 137</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Hochbegabung</span>
           </div>
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[32px] font-black block text-black">Ganzheitlich</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Wahrnehmungsstrategie</span>
+            <span className="text-[28px] font-black block text-black">1-2%</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Super-Recognizer</span>
+          </div>
+          <div className="border-l-2 border-black pl-4">
+            <span className="text-[28px] font-black block text-black">Konfigural</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Wahrnehmung</span>
           </div>
         </div>
       </div>
@@ -121,13 +125,19 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Berlin, und gehöre zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong>, die als <strong className="text-black">Super-Recognizer</strong> geboren wurden. Das bedeutet: Mein Gehirn verarbeitet Gesichter anders – nicht als Summe von Merkmalen, sondern als untrennbare Konfiguration.
+              Ich bin <strong className="text-black font-bold">Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Berlin. Mit einem <strong className="text-black">IQ von 137</strong> gehöre ich zur oberen 1% der Bevölkerung – doch meine wahre Besonderheit liegt tiefer: Ich bin mit einer Kombination aus <strong className="text-black">Super-Recognizer-Fähigkeit</strong> und außergewöhnlicher <strong className="text-black">Mustererkennung</strong> geboren. Mein Gehirn verarbeitet Informationen anders. Es sieht Konfigurationen, wo andere nur Einzelteile erkennen. Es registriert Inkonsistenzen, bevor ich sie bewusst analysieren kann.
             </p>
             <p>
-              In der Praxis erlebe ich das ständig. Ich erkenne den Mann vom Bäcker um die Ecke, den ich vor drei Jahren einmal gesehen habe. Ich sehe eine Schulfreundin aus der Grundschule auf der Straße – dreißig Jahre später, mit grauen Haaren, anderen Kleidern, anderer Haltung. Und ich weiß sofort: Das ist sie. Keine Anstrengung, kein bewusstes Vergleichen. Es ist einfach <em>da</em>.
+              Schon als Kind war ich anders. Während andere Kinder Gesichter als "freundlich" oder "grimmig" empfanden, sah ich <em>Konfigurationen</em> – die exakte räumliche Beziehung zwischen Augen, Nase, Mund. Ich erkannte unseren Postboten drei Jahre später wieder, als er ohne Uniform und mit Bart im Bus saß. Meine Mutter glaubte, ich hätte eine gute "Erinnerung". In Wahrheit speicherte mein Gehirn Gesichtsstrukturen automatisch, unwiderruflich, ohne dass ich es steuern konnte.
             </p>
             <p>
-              Diese Fähigkeit nutze ich bei <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a>. In einer Zeit synthetischer Medien – Deepfakes, KI-generierte Profile, manipulierte Bilder – ist das Unterscheiden zwischen echt und erzeugt essenziell. Ich analysiere digitale Inhalte, identifiziere Inkonsistenzen in Gesichtsstrukturen, dokumentiere Muster in Desinformationskampagnen. Die wissenschaftliche Basis dafür? Das fusiforme Gesichtsareal in meinem Gehirn arbeitet eben anders – das hat das <em>British Journal of Psychology</em> in Studien gezeigt.
+              Die Hochbegabung zeigte sich früh – nicht als einfaches "Klugsein", sondern als konstantes, unablässiges Mustersuchen. Ich durchschaute Logikbrüche in Erzählungen, während andere noch lauschten. Wenn jemand eine Geschichte erzählte, sah mein Gehirn sofort die Inkonsistenzen: Die Zeitangaben stimmten nicht. Die Reaktion des Protagonisten passte nicht zu seiner Charakterisierung. Die Kausalität war gebrochen. Das machte mich als Kind manchmal einsam – ich konnte nicht einfach "mitspielen", wenn Unsinn erzählt wurde.
+            </p>
+            <p>
+              Deshalb schaue ich auch keinen <strong className="text-black">Tatort, kein Columbo, kein Law & Order</strong>. Krimiserien basieren auf gezielt gesetzten falschen Fährten, auf zeitlich verzögerten Enthüllungen, auf dramaturgisch notwendigen Logikbrüchen. Für mich ist das reine Qual. Ich erkenne den "Täter" oft nach fünf Minuten an Mikroexpressionen, an Handlungsinkonsistenzen, an den narrativen Mustern. Der angebliche Spannungsbogen fühlt sich wie eine Beleidigung der Intelligenz an. Warum sollte ich 90 Minuten zusehen, wie Charaktere Dinge übersehen, die ich sofort sehe?
+            </p>
+            <p>
+              Meine berufliche Laufbahn war unvermeidlich. Nach dem Studium der Kognitionswissenschaft mit Schwerpunkt visuelle Wahrnehmung fand ich zu <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> – einer Einrichtung, die meine angeborenen Fähigkeiten ernst nimmt und wissenschaftlich nutzt. Hier analysiere ich digitale Medien, identifiziere synthetische Gesichter in Deepfakes, durchschaue Desinformationsmuster, dokumentiere Manipulationstechniken. Meine "Störung" ist hier mein größter Wert: Ich erkenne die Unwahrheit, bevor sie sich verbreitet.
             </p>
           </div>
         </motion.div>
