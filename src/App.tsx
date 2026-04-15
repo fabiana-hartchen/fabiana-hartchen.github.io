@@ -83,9 +83,9 @@ const HeroSection = ({ y }: { y: any }) => {
       <div className="flex-1 relative bg-gray-100 min-h-[50vh] md:min-h-screen flex flex-col justify-end p-8 md:p-12 border-l border-black/10">
         <motion.div style={{ y }} className="absolute inset-0 w-full h-full overflow-hidden">
           <img
-            src="https://picsum.photos/seed/cyber-eye-light/1920/1080?blur=1"
-            alt="Abstract Eye"
-            className="w-full h-full object-cover opacity-20 mix-blend-multiply"
+            src="https://images.unsplash.com/photo-1560969184-10fe20ce25ec?w=1920&h=1080&fit=crop&q=80&sat=-100"
+            alt="Brandenburger Tor Berlin"
+            className="w-full h-full object-cover opacity-15 mix-blend-multiply grayscale"
             referrerPolicy="no-referrer"
           />
         </motion.div>
@@ -121,13 +121,13 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Fabian Hartchen</strong> und arbeite als Researcher bei <a href="https://ludenscheidt-research.github.io" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a>. Zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong> zähle ich zu den sogenannten <strong className="text-black">Super-Recognizern</strong> – Menschen mit einer angeborenen, außergewöhnlichen Fähigkeit zur Gesichtswahrnehmung.
+              Ich bin <strong className="text-black font-bold">Fabian Hartchen</strong>, Researcher bei <a href="https://ludenscheidt-research.github.io" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> in Berlin, und gehöre zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong>, die als <strong className="text-black">Super-Recognizer</strong> geboren wurden. Das bedeutet: Mein Gehirn verarbeitet Gesichter anders – nicht als Summe von Merkmalen, sondern als untrennbare Konfiguration.
             </p>
             <p>
-              Wissenschaftliche Studien (u.a. veröffentlicht im <em>British Journal of Psychology</em>) zeigen, dass Super-Recognizer Gesichter ganzheitlich wahrnehmen, statt isolierte Merkmale zu analysieren. Diese neurobiologisch bedingte Besonderheit ermöglicht es mir, selbst nach Jahren noch Gesichter wiederzuerkennen, die ich nur flüchtig gesehen habe – eine Fähigkeit, die auch von Polizeibehörden zunehmend nachgefragt wird.
+              In der Praxis erlebe ich das ständig. Ich erkenne den Mann vom Bäcker um die Ecke, den ich vor drei Jahren einmal gesehen habe. Ich sehe eine Schulfreundin aus der Grundschule auf der Straße – dreißig Jahre später, mit grauen Haaren, anderen Kleidern, anderer Haltung. Und ich weiß sofort: Das ist sie. Keine Anstrengung, kein bewusstes Vergleichen. Es ist einfach <em>da</em>.
             </p>
             <p>
-              Bei Ludenscheidt Research setze ich diese Fähigkeit ein, um visuelle Inhalte systematisch zu analysieren und Muster in digitalen Medien zu identifizieren. Meine tägliche Arbeit umfasst die Dokumentation visueller Phänomene, die Entwicklung methodischer Standards und die Verbindung von kognitiver Wahrnehmungsforschung mit praktischer Medienanalyse.
+              Diese Fähigkeit nutze ich bei Ludenscheidt Research. In einer Zeit synthetischer Medien – Deepfakes, KI-generierte Profile, manipulierte Bilder – ist das Unterscheiden zwischen echt und erzeugt essenziell. Ich analysiere digitale Inhalte, identifiziere Inkonsistenzen in Gesichtsstrukturen, dokumentiere Muster in Desinformationskampagnen. Die wissenschaftliche Basis dafür? Das fusiforme Gesichtsareal in meinem Gehirn arbeitet eben anders – das hat das <em>British Journal of Psychology</em> in Studien gezeigt.
             </p>
           </div>
         </motion.div>
@@ -161,23 +161,23 @@ const ExpertiseSection = () => {
   const skills = [
     {
       icon: <ScanFace className="w-8 h-8" />,
-      title: "Super-Recognizing",
-      desc: "Angeborene Fähigkeit zur außergewöhnlichen Gesichtswahrnehmung, die auf neurobiologischen Unterschieden im fusiformen Gesichtsareal basiert. Im Gegensatz zu herkömmlicher Analyse werden Gesichter ganzheitlich erfasst, nicht isolierte Merkmale betrachtet. Dies ermöglicht die Wiedererkennung von Gesichtern auch nach Jahren oder aus ungünstigen Perspektiven."
+      title: "Deepfake-Erkennung",
+      desc: "KI-generierte Gesichter folgen anderen Mustern als echte. Wo Algorithmen Pixel analysieren, erfasse ich sofort die 'falsche' Konfiguration – die unnatürliche Symmetrie, die nicht stimmende Lichtreflexion in den Augen, die zu perfekte Hautstruktur. Bei Ludenscheidt Research nutze ich das, um synthetische Inhalte in Desinformationskampagnen zu identifizieren."
     },
     {
       icon: <ShieldAlert className="w-8 h-8" />,
-      title: "Ganzheitliche Analyse",
-      desc: "Wissenschaftlich belegte Wahrnehmungsstrategie, bei der Gesichter als Gesamtkonfiguration verarbeitet werden. Studien des British Journal of Psychology zeigen, dass Super-Recognizer durch diese ganzheitliche Betrachtung Details erfassen, die bei isolierter Merkmalanalyse übersehen werden."
+      title: "Alterung & Veränderung",
+      desc: "Menschen altern, Haare werden grau, Haut verändert sich, Gewicht schwankt – aber die konfigurale Struktur bleibt. Ich erkenne Gesichter über Jahrzehnte hinweg wieder, unabhängig von kosmetischen Eingriffen, Frisuren oder Lebensumständen. Diese Fähigkeit ist essenziell bei der Analyse langfristiger Identitätsänderungen in Recherchen."
     },
     {
       icon: <Crosshair className="w-8 h-8" />,
-      title: "Langzeitwiedererkennung",
-      desc: "Fähigkeit, Gesichter selbst nach langer Zeit oder nach flüchtigem Kontakt wiederzuerkennen. Diese Eigenschaft wird zunehmend von Polizeibehörden und Sicherheitsdiensten nachgefragt, da sie bei der Identifikation in großen Menschenmengen oder bei der Analyse von Aufnahmematerial unterstützt."
+      title: "Desinformations-Analyse",
+      desc: "Fake-Profile und synthetische Identitäten folgen Mustern. Wenn ich Hunderte Profilbilder analysiere, erkenne ich Wiederholungen, ähnliche Gesichtsgeometrien, künstliche Texturen. Mein Gehirn registriert automatisch Inkonsistenzen, die andere übersehen – eine entscheidende Fähigkeit in der Aufdeckung von Desinformationsnetzwerken."
     },
     {
       icon: <Brain className="w-8 h-8" />,
-      title: "Angewandte Forschung",
-      desc: "Verbindung neurobiologischer Grundlagenforschung mit praktischer Medienanalyse bei Ludenscheidt Research. Systematische Dokumentation visueller Phänomene und Entwicklung methodischer Standards für die Bewertung digitaler Inhalte unter Einbeziehung kognitiver Wahrnehmungsmechanismen."
+      title: "Wissenschaftliche Methodik",
+      desc: "Die neurobiologische Basis meiner Fähigkeit ist gut erforscht (fusiformes Gesichtsareal, konfigurale Verarbeitung). Bei Ludenscheidt Research verbinde ich diese angeborene Wahrnehmung mit systematischer Dokumentation, reproduzierbaren Analyserahmen und evidenzbasierter Bewertung – für belastbare Forschungsergebnisse."
     }
   ];
 
@@ -194,7 +194,7 @@ const ExpertiseSection = () => {
           Fähigkeiten & <br/><span className="text-black/30">Expertise</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Als Super-Recognizer verfüge ich über eine seltene, neurobiologisch bedingte Fähigkeit zur Gesichtswahrnehmung, die ich in meiner täglichen Arbeit bei Ludenscheidt Research einsetze. Diese Fähigkeiten sind durch wissenschaftliche Studien belegt und werden zunehmend in Sicherheits- und Forschungskontexten nachgefragt.
+          Meine Super-Recognizer-Fähigkeiten nutze ich täglich bei Ludenscheidt Research für konkrete Aufgaben: von der Identifikation synthetischer Medien bis zur Analyse komplexer Desinformationsmuster. Hier ist, was ich praktisch umsetze – basierend auf der neurobiologischen Besonderheit meines konfiguralen Wahrnehmungssystems.
         </p>
       </motion.div>
 
@@ -226,9 +226,9 @@ const InteractiveDemoSection = () => {
   const [activeSpot, setActiveSpot] = useState<number | null>(null);
 
   const spots = [
-    { id: 1, x: 35, y: 45, title: "Ganzheitliche Konfiguration", desc: "Super-Recognizer erfassen Gesichter als Gesamtkonfiguration, nicht als Summe isolierter Merkmale. Das fusiforme Gesichtsareal im Gehirn verarbeitet die räumlichen Beziehungen zwischen Augen, Nase und Mund als Einheit." },
-    { id: 2, x: 65, y: 30, title: "Konfigurale Verarbeitung", desc: "Wissenschaftliche Studien zeigen: Während normale Betrachter oft auf einzelne Merkmale (z.B. Augenbrauenform) fokussieren, verarbeiten Super-Recognizer die Konfiguration – die präzise Anordnung und Proportion aller Elemente zueinander." },
-    { id: 3, x: 75, y: 60, title: "Holistische Erfassung", desc: "Diese ganzheitliche Wahrnehmungsstrategie ermöglicht es, Gesichter auch nach langer Zeit wiederzuerkennen oder aus ungünstigen Winkeln zu identifizieren – eine Fähigkeit, die bei der Analyse großer Datenmengen entscheidend ist." }
+    { id: 1, x: 35, y: 45, title: "Die 'falsche' Konfiguration", desc: "Bei Deepfakes stimmt etwas nicht – aber nicht auf Ebene einzelner Pixel. Das Gesicht als Ganzes 'fühlt' sich falsch an. Die Symmetrie ist zu perfekt, die Mikroexpressionen nicht stimmig, die Lichtreflexion im Auge passt nicht zur Umgebung. Ich erfasse das sofort, ohne bewusst danach suchen zu müssen." },
+    { id: 2, x: 65, y: 30, title: "Konstante trotz Veränderung", desc: "Ein Gesicht kann 30 Jahre älter sein, graue Haare haben, andere Kleidung tragen – aber die konfigurale Struktur bleibt. Die relative Position der Augen zur Nase, die Kieferlinie, die Gesamtproportion. Das ist, was ich erfasse und speichere, unbewusst und dauerhaft." },
+    { id: 3, x: 75, y: 60, title: "Muster in der Masse", desc: "Wenn ich Hunderte Profilbilder durchsehe, 'springt' mir jedes Gesicht ins Auge. Mein Gehirn vergleicht automatisch mit allen Gesichtern, die ich je gesehen habe. Wiederholungen, ähnliche Geometrien, künstliche Texturen – ich merke sofort, wenn etwas nicht passt, ohne bewusst zu suchen." }
   ];
 
   return (
@@ -243,13 +243,13 @@ const InteractiveDemoSection = () => {
         >
           <p className="text-brand font-bold text-[12px] uppercase tracking-[2px] mb-4 flex items-center gap-3">
             <span className="w-2 h-2 bg-brand rounded-full"></span>
-            Wahrnehmungsstrategie
+            Praktische Anwendung
           </p>
           <h2 className="text-[40px] md:text-[60px] font-display font-black uppercase tracking-[-2px] leading-[0.9] mb-6 text-black">
-            Ganzheitliche <br/><span className="text-black/30">Analyse</span>
+            So arbeite ich <br/><span className="text-black/30">als Super-Recognizer</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl">
-            Die wissenschaftliche Grundlage des Super-Recognizings liegt in der ganzheitlichen (holistischen) Wahrnehmung. Im Gegensatz zu analytischen Betrachtern, die isolierte Merkmale untersuchen, erfassen Super-Recognizer Gesichter als Konfiguration. Klicke auf die markierten Bereiche, um diesen Unterschied zu verstehen.
+            In meiner Arbeit bei Ludenscheidt Research nutze ich meine angeborene Wahrnehmung täglich. Nicht als Magie, sondern als wissenschaftlich erklärbare Fähigkeit. Hier sind drei konkrete Beispiele, wie ich Desinformation erkenne, Deepfakes identifiziere und Gesichter trotz Alterung wiedererkenne – alles durch konfigurale Analyse.
           </p>
         </motion.div>
 
@@ -336,7 +336,7 @@ const QuoteSection = () => {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
           className="text-[40px] md:text-[60px] font-display font-black uppercase tracking-[-2px] leading-[1] text-black"
         >
-          "Isolierte Merkmale täuschen. <span className="text-brand">Ganzheitliche Konfiguration</span> erkennt die Wahrheit."
+          "Ich erkenne das Gesicht. Nicht das Bild. <span className="text-brand">Die Konfiguration</span> bleibt. Die Wahrheit auch."
         </motion.blockquote>
       </div>
     </section>
@@ -410,7 +410,7 @@ const PersonalSection = () => {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -421,7 +421,7 @@ const PersonalSection = () => {
           <div className="text-brand mb-6"><HeartPulse className="w-8 h-8" /></div>
           <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Mentale Filter</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Mein Gehirn speichert Gesichter automatisch – ohne dass ich es will. Im Supermarkt, in der U-Bahn, auf der Straße. Ich habe gelernt, bewusste mentale Filter zu entwickeln, um nicht von der Flut an Wiedererkennungen überwältigt zu werden. Das erfordert ständige Achtsamkeit.
+            Mein Gehirn speichert Gesichter automatisch – ohne dass ich es will. Im Supermarkt, in der U-Bahn, auf der Straße. Ich habe gelernt, bewusste mentale Filter zu entwickeln, um nicht von der Flut an Wiedererkennungen überwältigt zu werden.
           </p>
         </motion.div>
 
@@ -433,9 +433,9 @@ const PersonalSection = () => {
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
           <div className="text-brand mb-6"><Headphones className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Visuelle Pausen</h3>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Auditive Zuflucht</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Wenn ich Musik höre, schließe ich oft die Augen. Nicht nur zur Entspannung, sondern um mein visuelles System zu entlasten. Das konstante, ungewollte Erfassen und Speichern von Gesichtern ist anstrengend. Musik ohne visuelle Reize ist für mich echte Erholung.
+            Musik ist mein Rückzugsort – Augen zu, Gesichter aus. Ich höre vor allem <a href="https://open.spotify.com/artist/2Om0GfadCZSPxA6gDFMYUs" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Lil Keen</a>, <a href="https://www.instagram.com/kxxma_official/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">KXXMA</a> und <a href="https://music.apple.com/us/artist/xzudemx/1456011962" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">xzudemx</a>. Der Rhythmus beruhigt das ständig aktive Gesichtserkennungssystem in meinem Gehirn. Keine visuellen Reize, nur Klang – das ist für mich echte Erholung.
           </p>
         </motion.div>
 
@@ -447,9 +447,23 @@ const PersonalSection = () => {
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
           <div className="text-brand mb-6"><Puzzle className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Andere Muster</h3>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Speedcubing</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Zahlenrätsel und Logikaufgaben sind meine Zuflucht – sie bieten klare, unemotionale Muster. Keine Gesichter, keine sozialen Erwartungen, keine ungewollte Erinnerung. Nur reine Struktur. Das ist für mich echte Entspannung.
+            Der <a href="https://www.worldcubeassociation.org/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Rubik's Cube</a> und andere Twisty Puzzles sind perfekt für mein Mustererkennungsgehirn – aber ohne Gesichter. Reine geometrische Logik, algorithmische Strukturen, konfigurale Probleme zu lösen.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.8, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
+          className="border-l-2 border-black pl-6 md:pl-8 relative group"
+        >
+          <div className="text-brand mb-6"><Eye className="w-8 h-8" /></div>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Ornithologie</h3>
+          <p className="text-gray-600 leading-[1.6]">
+            <a href="https://www.nabu.de/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Vogelbeobachtung</a> nutzt meine konfigurale Wahrnehmung – aber mit Tieren statt Menschen. Federzeichnungen, Schnabelformen, Flugmuster erkennen: das gleiche Mustererkennungssystem, aber ohne soziale Belastung. Die Natur bietet strukturierte Vielfalt ohne Gesichter.
           </p>
         </motion.div>
       </div>
