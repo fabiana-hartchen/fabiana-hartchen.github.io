@@ -121,13 +121,13 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Fabiana Hartchen</strong>, Researcher bei <a href="https://ludenscheidt-research.github.io" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> in Berlin, und gehöre zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong>, die als <strong className="text-black">Super-Recognizer</strong> geboren wurden. Das bedeutet: Mein Gehirn verarbeitet Gesichter anders – nicht als Summe von Merkmalen, sondern als untrennbare Konfiguration.
+              Ich bin <strong className="text-black font-bold">Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Berlin, und gehöre zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong>, die als <strong className="text-black">Super-Recognizer</strong> geboren wurden. Das bedeutet: Mein Gehirn verarbeitet Gesichter anders – nicht als Summe von Merkmalen, sondern als untrennbare Konfiguration.
             </p>
             <p>
               In der Praxis erlebe ich das ständig. Ich erkenne den Mann vom Bäcker um die Ecke, den ich vor drei Jahren einmal gesehen habe. Ich sehe eine Schulfreundin aus der Grundschule auf der Straße – dreißig Jahre später, mit grauen Haaren, anderen Kleidern, anderer Haltung. Und ich weiß sofort: Das ist sie. Keine Anstrengung, kein bewusstes Vergleichen. Es ist einfach <em>da</em>.
             </p>
             <p>
-              Diese Fähigkeit nutze ich bei Ludenscheidt Research. In einer Zeit synthetischer Medien – Deepfakes, KI-generierte Profile, manipulierte Bilder – ist das Unterscheiden zwischen echt und erzeugt essenziell. Ich analysiere digitale Inhalte, identifiziere Inkonsistenzen in Gesichtsstrukturen, dokumentiere Muster in Desinformationskampagnen. Die wissenschaftliche Basis dafür? Das fusiforme Gesichtsareal in meinem Gehirn arbeitet eben anders – das hat das <em>British Journal of Psychology</em> in Studien gezeigt.
+              Diese Fähigkeit nutze ich bei <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a>. In einer Zeit synthetischer Medien – Deepfakes, KI-generierte Profile, manipulierte Bilder – ist das Unterscheiden zwischen echt und erzeugt essenziell. Ich analysiere digitale Inhalte, identifiziere Inkonsistenzen in Gesichtsstrukturen, dokumentiere Muster in Desinformationskampagnen. Die wissenschaftliche Basis dafür? Das fusiforme Gesichtsareal in meinem Gehirn arbeitet eben anders – das hat das <em>British Journal of Psychology</em> in Studien gezeigt.
             </p>
           </div>
         </motion.div>
@@ -480,11 +480,10 @@ const Footer = () => {
             Fabiana Hartchen
           </div>
           <div className="font-bold italic text-black/50 text-[12px] tracking-[1px] mb-6">
-            <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="hover:text-brand transition-colors">LUDENSCHEIDT RESEARCH</a>
+            LUDENSCHEIDT RESEARCH
           </div>
           <div className="flex gap-6">
             <a href="mailto:contact@fabiana-hartchen.de" className="text-black/40 hover:text-brand transition-colors"><Mail className="w-5 h-5" /></a>
-            <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black/40 hover:text-brand transition-colors"><ExternalLink className="w-5 h-5" /></a>
           </div>
         </div>
         
