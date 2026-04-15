@@ -502,9 +502,9 @@ export default function App() {
     <div className="min-h-screen bg-white text-black font-sans selection:bg-brand selection:text-white flex">
       {/* Sidebar */}
       <aside className="hidden md:flex fixed left-0 top-0 bottom-0 w-[80px] border-r border-black/10 flex-col justify-center items-center z-50 bg-white">
-        <div className="[writing-mode:vertical-rl] rotate-180 uppercase tracking-[8px] text-[10px] text-black/30 whitespace-nowrap">
-          LUDENSCHEIDT RESEARCH • 2025
-        </div>
+        <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="[writing-mode:vertical-rl] rotate-180 uppercase tracking-[4px] text-[10px] text-red-600 hover:text-red-800 whitespace-nowrap transition-colors">
+          LUDENSCHEIDT RESEARCH
+        </a>
       </aside>
       
       {/* Main Content Area */}
