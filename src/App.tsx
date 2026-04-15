@@ -16,7 +16,7 @@ const Navbar = () => {
     <header className={`fixed top-0 right-0 w-full md:w-[calc(100%-80px)] z-50 transition-all duration-300 ${scrolled ? 'bg-white border-b border-black/10 py-4' : 'bg-white md:bg-transparent border-b border-black/10 md:border-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center h-full">
         <div className="font-display font-black text-xl md:text-2xl tracking-tighter uppercase text-black">
-          Dr. F. Hartchen
+          Fabian Hartchen
         </div>
         
         <nav className="hidden md:flex gap-10 text-[12px] font-sans tracking-[2px] uppercase text-black/60">
@@ -62,7 +62,7 @@ const HeroSection = ({ y }: { y: any }) => {
           Super-Recognizer & Researcher
         </motion.p>
         <h1 className="text-[60px] md:text-[82px] font-display font-black uppercase tracking-[-4px] leading-[0.9] mb-8">
-          Dr. Fabiana <br />
+          Fabian <br />
           Hartchen
         </h1>
         <motion.div
@@ -121,7 +121,7 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong> und arbeite als Researcher bei <a href="https://ludenscheidt-research.github.io" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a>. Zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong> zähle ich zu den sogenannten <strong className="text-black">Super-Recognizern</strong> – Menschen mit einer angeborenen, außergewöhnlichen Fähigkeit zur Gesichtswahrnehmung.
+              Ich bin <strong className="text-black font-bold">Fabian Hartchen</strong> und arbeite als Researcher bei <a href="https://ludenscheidt-research.github.io" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a>. Zu den etwa <strong className="text-black">1-2% der Bevölkerung</strong> zähle ich zu den sogenannten <strong className="text-black">Super-Recognizern</strong> – Menschen mit einer angeborenen, außergewöhnlichen Fähigkeit zur Gesichtswahrnehmung.
             </p>
             <p>
               Wissenschaftliche Studien (u.a. veröffentlicht im <em>British Journal of Psychology</em>) zeigen, dass Super-Recognizer Gesichter ganzheitlich wahrnehmen, statt isolierte Merkmale zu analysieren. Diese neurobiologisch bedingte Besonderheit ermöglicht es mir, selbst nach Jahren noch Gesichter wiederzuerkennen, die ich nur flüchtig gesehen habe – eine Fähigkeit, die auch von Polizeibehörden zunehmend nachgefragt wird.
@@ -140,7 +140,7 @@ const AboutSection = () => {
         >
           <img
             src="images/Fabiana.png"
-            alt="Dr. Fabiana Hartchen"
+            alt="Fabian Hartchen"
             className="w-full h-full object-cover mix-blend-multiply opacity-90 hover:mix-blend-normal hover:opacity-100 transition-all duration-700"
             referrerPolicy="no-referrer"
             onError={(e) => {
@@ -149,11 +149,7 @@ const AboutSection = () => {
           />
           <div className="absolute inset-0 bg-diagonal-pattern opacity-10 pointer-events-none"></div>
           <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-sm border border-black/10 p-4">
-            <div className="text-[10px] text-brand uppercase tracking-[2px] mb-1 flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-brand rounded-full"></span>
-              Dr. Fabiana Hartchen
-            </div>
-            <div className="text-black font-bold uppercase tracking-[1px]">Akademisches Portfolio</div>
+            <div className="text-black font-bold uppercase tracking-[1px]">Fabian Hartchen (2025)</div>
           </div>
         </motion.div>
       </div>
@@ -387,8 +383,8 @@ const InstitutionSection = () => {
             <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Aktives Jahr</div>
           </div>
           <div className="border-l-2 border-black pl-6 col-span-2">
-            <div className="text-[32px] font-black text-black mb-2 leading-none">Dr.</div>
-            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Akademischer Grad</div>
+            <div className="text-[32px] font-black text-black mb-2 leading-none">Super-Recognizer</div>
+            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Angeborene Fähigkeit</div>
           </div>
         </motion.div>
       </div>
@@ -407,10 +403,10 @@ const PersonalSection = () => {
         className="mb-16 md:mb-24"
       >
         <h2 className="text-[50px] md:text-[70px] font-display font-black uppercase tracking-[-3px] leading-[0.9] mb-6 text-black">
-          Persönliches <br/><span className="text-black/30">Interessen</span>
+          Als Super-Recognizer <br/><span className="text-black/30">Leben</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Neben der akademischen Arbeit lege ich Wert auf ausgewogene Work-Life-Balance. Hier ein Einblick in meine persönlichen Interessen und Aktivitäten.
+          Die konstante, nicht abschaltbare Gesichtswahrnehmung prägt den Alltag. Ich erkenne jeden wieder – den Mann vom Bäcker von vor drei Jahren, die Frau aus der U-Bahn. Das kann überwältigend sein, erfordert bewusste Strategien und eine andere Perspektive auf soziale Interaktionen.
         </p>
       </motion.div>
 
@@ -423,9 +419,9 @@ const PersonalSection = () => {
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
           <div className="text-brand mb-6"><HeartPulse className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Balance & Achtsamkeit</h3>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Mentale Filter</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Die intensive Beschäftigung mit komplexen wissenschaftlichen Themen erfordert bewusste Auszeiten. Ich praktiziere Achtsamkeit und setze auf ausgewogene Routinen zur Stressbewältigung und mentalen Erholung.
+            Mein Gehirn speichert Gesichter automatisch – ohne dass ich es will. Im Supermarkt, in der U-Bahn, auf der Straße. Ich habe gelernt, bewusste mentale Filter zu entwickeln, um nicht von der Flut an Wiedererkennungen überwältigt zu werden. Das erfordert ständige Achtsamkeit.
           </p>
         </motion.div>
 
@@ -437,9 +433,9 @@ const PersonalSection = () => {
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
           <div className="text-brand mb-6"><Headphones className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Musik & Kultur</h3>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Visuelle Pausen</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Musik ist ein wesentlicher Teil meines Lebens – sei es beim Konzentrieren während der Arbeit oder zur Entspannung. Ich höre gerne verschiedene Genres und entdecke neue Künstler.
+            Wenn ich Musik höre, schließe ich oft die Augen. Nicht nur zur Entspannung, sondern um mein visuelles System zu entlasten. Das konstante, ungewollte Erfassen und Speichern von Gesichtern ist anstrengend. Musik ohne visuelle Reize ist für mich echte Erholung.
           </p>
         </motion.div>
 
@@ -451,9 +447,9 @@ const PersonalSection = () => {
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
           <div className="text-brand mb-6"><Puzzle className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Logik & Rätsel</h3>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Andere Muster</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Logikrätsel und Denksportaufgaben bieten mir eine angenehme Abwechslung zur akademischen Arbeit. Sie trainieren das analytische Denken auf spielerische Weise.
+            Zahlenrätsel und Logikaufgaben sind meine Zuflucht – sie bieten klare, unemotionale Muster. Keine Gesichter, keine sozialen Erwartungen, keine ungewollte Erinnerung. Nur reine Struktur. Das ist für mich echte Entspannung.
           </p>
         </motion.div>
       </div>
@@ -467,7 +463,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
         <div>
           <div className="font-display font-black text-xl tracking-tighter uppercase text-black mb-4">
-            Dr. F. Hartchen
+            Fabian Hartchen
           </div>
           <div className="font-bold italic text-black/50 text-[12px] tracking-[1px] mb-6">
             <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="hover:text-brand transition-colors">LUDENSCHEIDT RESEARCH</a>
@@ -488,7 +484,7 @@ const Footer = () => {
       
       <div className="border-t border-black/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="text-[10px] text-black/30 uppercase tracking-[2px]">
-          &copy; {new Date().getFullYear()} DR. FABIANA HARTCHEN
+          &copy; {new Date().getFullYear()} FABIAN HARTCHEN
         </div>
         <div className="text-[10px] text-black/30 uppercase tracking-[2px]">
           PRIVATES PORTFOLIO
