@@ -361,11 +361,8 @@ const InstitutionSection = () => {
             Ludenscheidt <br/> Research
           </h2>
           <p className="text-gray-600 text-lg leading-[1.6] mb-10">
-            Bei <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> widme ich mich der praktischen und theoretischen Erforschung digitaler Medienphänomene. Meine tägliche Arbeit umfasst die systematische Analyse visueller Inhalte, die Dokumentation von Mustern in digitalen Kommunikationsstrukturen und die Entwicklung methodischer Ansätze zur Bewertung von Medienauthentizität. Dabei arbeite ich eng mit dem interdisziplinären Team zusammen, um Forschungsergebnisse in nachvollziehbare Analysen zu überführen und wissenschaftliche Standards in der praktischen Medienbewertung anzuwenden.
+            Bei <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> widme ich mich der praktischen und theoretischen Erforschung digitaler Medienphänomene. Meine tägliche Arbeit umfasst die systematische Analyse visueller Inhalte, die Dokumentation von Mustern in digitalen Kommunikationsstrukturen und die Entwicklung methodischer Ansätze zur Bewertung von Medienauthentizität.
           </p>
-          <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="inline-flex items-center gap-4 px-8 py-4 bg-black text-white font-bold uppercase text-[12px] tracking-[2px] hover:bg-gray-800 transition-colors">
-            Ludenscheidt Research <ArrowRight className="w-4 h-4" />
-          </a>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 30 }}
