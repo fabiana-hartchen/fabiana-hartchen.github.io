@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --color-brand: #0044cc; /* Deep Research Blue */
+}
+
+body {
+  background-color: #ffffff;
+  color: #111111;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Diagonal pattern utility */
+.bg-diagonal-pattern {
+  background: linear-gradient(45deg, #e5e5e5 25%, transparent 25%),
+              linear-gradient(-45deg, #e5e5e5 25%, transparent 25%),
+              linear-gradient(45deg, transparent 75%, #e5e5e5 75%),
+              linear-gradient(-45deg, transparent 75%, #e5e5e5 75%);
+  background-size: 20px 20px;
+}
+
+/* Custom scrollbar for a sleek look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 0px; /* Sharp edges for geometric theme */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa;
+}
