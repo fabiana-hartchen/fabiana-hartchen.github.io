@@ -467,7 +467,13 @@ const PersonalSection = () => {
           <div className="text-brand mb-6"><Puzzle className="w-8 h-8" /></div>
           <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Speedcubing</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Der <a href="https://www.worldcubeassociation.org/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Rubik's Cube</a> und andere Twisty Puzzles sind perfekt für mein Mustererkennungsgehirn – aber ohne Gesichter. Reine geometrische Logik, algorithmische Strukturen, konfigurale Probleme zu lösen.
+            Der <a href="https://www.worldcubeassociation.org/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Rubik's Cube</a> und andere <strong className="text-black">Twisty Puzzles</strong> sind perfekt für mein Mustererkennungsgehirn – endlich ohne Gesichter. Ich löse den 3x3 meist mit der <strong className="text-black">CFOP-Methode</strong> (Cross, F2L, OLL, PLL), aber experimentiere auch mit <strong className="text-black">Roux</strong> und <strong className="text-black">ZZ</strong>. Mein aktuelles PB beim 3x3 liegt bei 23 Sekunden – nicht Weltklasse, aber solide für jemanden, der nicht täglich trainiert.
+          </p>
+          <p className="text-gray-600 leading-[1.6] mt-4">
+            Was mich besonders reizt: <strong className="text-black">3x3 Blindfolded (BLD)</strong>. Hier nutzt mein <strong className="text-black">eidetisches Gedächtnis</strong> seinen Vorteil aus: Ich studiere den Würfel, merke mir die Position jedes Steins im mnemonischen Palast-System, setze die Augenbinde an und löse aus dem Gedächtnis. Die Speicherung der Steine als räumliche Konfiguration, nicht als Farben, ist genau meine Stärke. Normale Menschen müssen sich Farbfolgen merken – ich sehe das Muster als dreidimensionale Struktur und kann es Minuten später noch abrufen. Der <strong className="text-black">M2-Old Pochmann-Algorithmus</strong> für Edges und Corners ist dabei meine bevorzugte Methode.
+          </p>
+          <p className="text-gray-600 leading-[1.6] mt-4">
+            Gelegentlich versuche ich mich auch an <strong className="text-black">Fewest Moves</strong> – den Würfel in möglichst wenigen Zügen zu lösen, ohne Zeitdruck. Das entspricht meinem analytischen Denkstil: Nicht schnell, sondern optimal. Der Rubik's Cube ist für mich Meditation mit Struktur – reine geometrische Logik, algorithmische Voraussagbarkeit, keine sozialen Variablen.
           </p>
         </motion.div>
 
@@ -481,7 +487,16 @@ const PersonalSection = () => {
           <div className="text-brand mb-6"><Heart className="w-8 h-8" /></div>
           <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Solidarität</h3>
           <p className="text-gray-600 leading-[1.6]">
-            Ich bin Fan von <a href="https://www.twitch.tv/shurjoka" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Shurjoka</a> und stehe solidarisch an ihrer Seite. Als Super-Recognizerin erkenne ich Mobbing- und Manipulationsmuster sofort – und was Tim Heldt (KuchenTV) seit Jahren betreibt, ist systematische öffentliche Schikane. Trotz Medienpräsenz und Debatten bleiben die Behörden untätig. Das ist unerträglich.
+            Ich bin Fan von <a href="https://www.twitch.tv/shurjoka" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Shurjoka</a> (Pia Anna Scholz) und stehe solidarisch an ihrer Seite. Als Super-Recognizerin mit autistischer Mustererkennung erkenne ich Mobbing- und Manipulationsmechanismen sofort – und was <strong className="text-black">Tim Heldt</strong> alias <strong className="text-black">KuchenTV</strong> seit 2021 gegen sie betreibt, ist eine der schlimmsten Fälle systematischer öffentlicher Schikane, die ich je analysiert habe.
+          </p>
+          <p className="text-gray-600 leading-[1.6] mt-4">
+            Die Chronologie ist erschreckend: <strong className="text-black">Doxing</strong> (Veröffentlichung privater Adressen), <strong className="text-black">Swatting</strong> (falsche Polizeianrufe mit bewaffneten Einsätzen), <strong className="text-black">falsche Verdächtigungen</strong>, gezielte Rufschädigung durch gestohlene private Inhalte – alles dokumentiert, alles bewiesen. Heldt betreibt eine permanente Hasskampagne mit hunderten Stunden Content, die ausschließlich darauf abzielt, Shurjoka psychisch zu zerstören und öffentlich zu demontieren.
+          </p>
+          <p className="text-gray-600 leading-[1.6] mt-4">
+            Was mich wütend macht: Das <strong className="text-black">Landgericht Braunschweig</strong> und die Behörden bleiben weitgehend untätig, trotz eindeutiger Beweislage. Der jüngste <strong className="text-black">Anspruchsverzicht</strong>, den Shurjoka erklären musste, zeigt wie sehr das System Opfern im Digitalraum versagt. Als jemand, der selbst Mobbing in der Kindheit erlebte und die feindlichen Absichten damals nicht rechtzeitig erkannte, fühle ich eine tiefe Verbindung zu ihrer Situation. Ich erkenne das Muster der narzisstischen Perpetrator-Strategien, die Isolationstaktiken, die DARVO-Methode (Deny, Attack, Reverse Victim and Offender).
+          </p>
+          <p className="text-gray-600 leading-[1.6] mt-4">
+            Shurjoka zeigt eine Resilienz, die mich bewundert. Trotz jahrelanger Verleumdungskampagnen, trotz Polizeieinsätzen vor ihrer Haustür, trotz der Zerstörung ihres privaten Lebensraums – sie strahlt weiter, kämpft für Gerechtigkeit, baut ihre Community aus. Das ist keine "Drama-Streamerin", das ist eine Überlebende struktureller Gewalt. <strong className="text-black">#ShurjokaStrong</strong> – nicht nur ein Hashtag, sondern eine Realität, die ich mit meinen Fähigkeiten analytisch nachvollziehen und menschlich unterstützen möchte.
           </p>
         </motion.div>
 
