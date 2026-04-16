@@ -69,13 +69,22 @@ const HeroSection = ({ y }: { y: any }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          className="flex gap-4 mt-4"
+          className="flex flex-wrap gap-3 mt-4"
         >
-          <a href="#about" className="px-8 py-4 bg-black text-white font-bold uppercase text-[12px] tracking-[2px] border border-black hover:bg-gray-800 transition-colors">
+          <a href="#about" className="px-6 py-3 bg-black text-white font-bold uppercase text-[11px] tracking-[2px] border border-black hover:bg-gray-800 transition-colors">
             Über Mich
           </a>
-          <a href="#expertise" className="px-8 py-4 bg-transparent text-black font-bold uppercase text-[12px] tracking-[2px] border border-black hover:bg-black/5 transition-colors">
+          <a href="#expertise" className="px-6 py-3 bg-transparent text-black font-bold uppercase text-[11px] tracking-[2px] border border-black hover:bg-black/5 transition-colors">
             Expertise
+          </a>
+          <a href="#demo" className="px-6 py-3 bg-transparent text-black font-bold uppercase text-[11px] tracking-[2px] border border-black hover:bg-black/5 transition-colors">
+            Analyse
+          </a>
+          <a href="#research" className="px-6 py-3 bg-transparent text-black font-bold uppercase text-[11px] tracking-[2px] border border-black hover:bg-black/5 transition-colors">
+            Forschung
+          </a>
+          <a href="#personal" className="px-6 py-3 bg-transparent text-black font-bold uppercase text-[11px] tracking-[2px] border border-black hover:bg-black/5 transition-colors">
+            Persönliches
           </a>
         </motion.div>
       </div>
