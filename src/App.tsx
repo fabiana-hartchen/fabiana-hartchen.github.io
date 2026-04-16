@@ -565,7 +565,7 @@ export default function App() {
     <div className="min-h-screen bg-white text-black font-sans selection:bg-brand selection:text-white flex">
       {/* Sidebar */}
       <aside className="hidden md:flex fixed left-0 top-0 bottom-0 w-[80px] border-r border-black/10 flex-col justify-center items-center z-50 bg-white">
-        <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="[writing-mode:vertical-rl] rotate-180 uppercase tracking-[3px] text-[16px] font-black text-blue-600 hover:text-blue-800 underline underline-offset-4 whitespace-nowrap transition-colors">
+        <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="[writing-mode:vertical-rl] rotate-180 uppercase tracking-[3px] text-[18px] font-black text-blue-600 hover:text-blue-800 underline underline-offset-4 whitespace-nowrap transition-colors">
           LUDENSCHEIDT RESEARCH
         </a>
       </aside>
