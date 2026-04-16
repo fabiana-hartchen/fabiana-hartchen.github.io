@@ -445,7 +445,7 @@ const PersonalSection = () => {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -493,20 +493,6 @@ const PersonalSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.8, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
-          className="border-l-2 border-black pl-6 md:pl-8 relative group"
-        >
-          <div className="text-brand mb-6"><Eye className="w-8 h-8" /></div>
-          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Ornithologie</h3>
-          <p className="text-gray-600 leading-[1.6]">
-            <a href="https://www.nabu.de/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Vogelbeobachtung</a> nutzt meine konfigurale Wahrnehmung – aber mit Tieren statt Menschen. Federzeichnungen, Schnabelformen, Flugmuster erkennen: das gleiche Mustererkennungssystem, aber ohne soziale Belastung.
-          </p>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.8, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
           className="border-l-2 border-black pl-6 md:pl-8 relative group"
         >
           <div className="text-brand mb-6"><Heart className="w-8 h-8" /></div>
