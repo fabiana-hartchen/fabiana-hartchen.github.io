@@ -97,12 +97,12 @@ const HeroSection = ({ y }: { y: any }) => {
             <span className="text-[10px] uppercase tracking-[1px] text-gray-600">Eidetisches Gedächtnis</span>
           </div>
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[28px] font-black block text-black">IQ 137</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">99,3. Perzentil</span>
+            <span className="text-[28px] font-black block text-black">IQ 144</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">99,8. Perzentil</span>
           </div>
           <div className="border-l-2 border-black pl-4">
-            <span className="text-[28px] font-black block text-black">0,001%</span>
-            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">1 von 100.000</span>
+            <span className="text-[28px] font-black block text-black">0,0002%</span>
+            <span className="text-[10px] uppercase tracking-[1px] text-gray-600">1 von 500.000</span>
           </div>
         </div>
       </div>
@@ -125,13 +125,13 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Koblenz. Als <strong className="text-black">Savantin</strong> mit <strong className="text-black">eidetischem Gedächtnis</strong>, einem <strong className="text-black">IQ von 137</strong> (99,3. Perzentil) und <strong className="text-black">Super-Recognizer-Fähigkeit</strong> gehöre ich zu einer der seltensten kognitiven Konstellationen überhaupt.
+              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Koblenz. Als <strong className="text-black">Savantin</strong> mit <strong className="text-black">eidetischem Gedächtnis</strong>, einem <strong className="text-black">IQ von 144</strong> (99,8. Perzentil) und <strong className="text-black">Super-Recognizer-Fähigkeit</strong> gehöre ich zu einer der seltensten kognitiven Konstellationen überhaupt.
 
 Mein Gehirn speichert Erinnerungen nicht linear, sondern räumlich-zeitlich: Jeder Moment, jede Begegnung, jeder Raum existiert in meinem Gedächtnis als dreidimensionale, immersive Szenerie. Ich kann mich an den 14. März 2009 um 15:43 Uhr erinnern – wie das Licht durch das Küchenfenster fiel, welche Jacke meine Mutter trug, das Vogelgezwitscher draußen. Nicht als Fakt, sondern als erlebte Realität. Dieses <strong className="text-black">mnemonische Palast-System</strong> ist nicht erlernt, sondern angeboren.
 
 Die Super-Recognizer-Fähigkeit verschmilzt damit zu einer einzigartigen Wahrnehmung: Ich erkenne nicht nur jedes Gesicht, sondern speichere automatisch den <em>Kontext</em> – den Raum, das Licht, die Zeit, die Kleidung. Wenn ich jemanden wiedersehe, aktiviert sich die gesamte Szenerie. Das ist keine "gute Erinnerung" – das ist neurobiologische Realität, die mich als Savantin klassifiziert.
 
-Die Wahrscheinlichkeit dieser Kombination (Savantismus + IQ 137 + Super-Recognizer): etwa <strong className="text-black">0,001% – 1 von 100.000 Menschen</strong>.
+Die Wahrscheinlichkeit dieser Kombination (Savantismus + IQ 144 + Super-Recognizer): etwa <strong className="text-black">0,0002% – 1 von 500.000 Menschen</strong>.
             </p>
             <p>
               Schon als Kind war ich anders. Während andere Kinder Gesichter als "freundlich" oder "grimmig" empfanden, sah ich <em>Konfigurationen</em> – die exakte räumliche Beziehung zwischen Augen, Nase, Mund. Ich erkannte unseren Postboten drei Jahre später wieder, als er ohne Uniform und mit Bart im Bus saß. Meine Mutter glaubte, ich hätte eine gute "Erinnerung". In Wahrheit speicherte mein Gehirn Gesichtsstrukturen automatisch, unwiderruflich, ohne dass ich es steuern konnte.
@@ -420,10 +420,10 @@ const PersonalSection = () => {
         className="mb-16 md:mb-24"
       >
         <h2 className="text-[50px] md:text-[70px] font-display font-black uppercase tracking-[-3px] leading-[0.9] mb-6 text-black">
-          Als Super-Recognizer <br/><span className="text-black/30">Leben</span>
+          Als Savantin <br/><span className="text-black/30">Leben</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Die konstante, nicht abschaltbare Gesichtswahrnehmung prägt den Alltag. Ich erkenne jeden wieder – den Mann vom Bäcker von vor drei Jahren, die Frau aus der U-Bahn. Das kann überwältigend sein, erfordert bewusste Strategien und eine andere Perspektive auf soziale Interaktionen.
+          Mein eidetisches Gedächtnis speichert jede Begegnung, jeden Raum, jeden Moment als immersive Szenerie – unwiderruflich, detailgetreu, emotional beladen. Die Kombination aus Savantismus, Super-Recognizer-Fähigkeit und Hochbegabung prägt meinen Alltag. Ich erinnere mich nicht nur an Gesichter, sondern an die vollständigen Kontexte: das Licht, die Gerüche, die Kleidung, die Wetterlage. Das ist wissenschaftlich faszinierend – persönlich manchmal überwältigend.
         </p>
       </motion.div>
 
@@ -514,7 +514,7 @@ const Footer = () => {
             LUDENSCHEIDT RESEARCH
           </div>
           <div className="flex gap-6">
-            <a href="mailto:contact@fabiana-hartchen.de" className="text-black/40 hover:text-brand transition-colors"><Mail className="w-5 h-5" /></a>
+            <a href="mailto:fabiana.hartchen@protonmail.com" className="text-black/40 hover:text-brand transition-colors"><Mail className="w-5 h-5" /></a>
           </div>
         </div>
         
