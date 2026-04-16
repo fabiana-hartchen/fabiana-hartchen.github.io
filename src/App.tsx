@@ -83,7 +83,7 @@ const HeroSection = ({ y }: { y: any }) => {
       <div className="flex-1 relative bg-gray-100 min-h-[50vh] md:min-h-screen flex flex-col justify-end p-8 md:p-12 border-l border-black/10">
         <motion.div style={{ y }} className="absolute inset-0 w-full h-full overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1599946347371-536eed331f2c?w=1920&h=1080&fit=crop&q=80&sat=-100"
+            src="images/Koblenz-Deutsches_Eck.png"
             alt="Koblenz Deutsches Eck"
             className="w-full h-full object-cover opacity-15 mix-blend-multiply grayscale"
             referrerPolicy="no-referrer"
@@ -378,6 +378,9 @@ const InstitutionSection = () => {
           </h2>
           <p className="text-gray-600 text-lg leading-[1.6] mb-10">
             Bei <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> widme ich mich der praktischen und theoretischen Erforschung digitaler Medienphänomene. Meine tägliche Arbeit umfasst die systematische Analyse visueller Inhalte, die Dokumentation von Mustern in digitalen Kommunikationsstrukturen und die Entwicklung methodischer Ansätze zur Bewertung von Medienauthentizität.
+          </p>
+          <p className="text-gray-600 text-lg leading-[1.6] mb-10">
+            Ich wohne in <strong className="text-black">Neuwied</strong> (Raiffeisenring 26) und pendelt täglich ca. <strong className="text-black">17 km</strong> zur Arbeit nach Koblenz – autofrei. Die Strecke: Mit dem <strong className="text-black">RE5 (Rhein-Express)</strong> oder <strong className="text-black">RE25</strong> von Neuwied Hbf nach Koblenz Hbf (Fahrzeit ca. 15-20 Minuten, Taktung halbstündlich). Vom Hbf nehme ich die <strong className="text-black">Stadtbuslinie</strong> (z.B. Linie 1, 2, 3, 5, 6, 9, 16) bis zur Haltestelle <strong className="text-black">"Stadtmitte/Löhr-Center"</strong> – von dort sind es nur noch ca. 5 Minuten Fußweg zur Anton-Jordan-Straße 3. Die gesamte Reisezeit beträgt etwa 35-45 Minuten. Autofrei, weil ich in Bahnen und Bussen keine Gesichter speichern muss – ich kann lesen, denken, abschalten.
           </p>
         </motion.div>
         <motion.div
