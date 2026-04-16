@@ -59,7 +59,7 @@ const HeroSection = ({ y }: { y: any }) => {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="text-brand font-bold uppercase text-[12px] tracking-[2px] mb-6"
         >
-          Super-Recognizerin & Researcherin
+          Super-Recognizerin & Demokratieforscherin
         </motion.p>
         <h1 className="text-[60px] md:text-[82px] font-display font-black uppercase tracking-[-4px] leading-[0.9] mb-8">
           Dr. Fabiana<br />
@@ -126,7 +126,7 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Koblenz. Als <strong className="text-black">autistische Savantin</strong> (Asperger-Typus) mit <strong className="text-black">eidetischem Gedächtnis</strong>, einem <strong className="text-black">IQ von 144</strong> (99,8. Perzentil) und <strong className="text-black">Super-Recognizer-Fähigkeit</strong> gehöre ich zu einer der seltensten neurodivergenten Konstellationen überhaupt. Etwa die Hälfte aller Savants liegt im Autismus-Spektrum – bei mir manifestiert sich das als außergewöhnliche kognitive Leistung kombiniert mit spezifischen sozialen Herausforderungen.
+              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>, Demokratieforscherin bei <strong className="text-black">Ludenscheidt Research</strong> in Koblenz. Als <strong className="text-black">autistische Savantin</strong> (Asperger-Typus) mit <strong className="text-black">eidetischem Gedächtnis</strong>, einem <strong className="text-black">IQ von 144</strong> (99,8. Perzentil) und <strong className="text-black">Super-Recognizer-Fähigkeit</strong> gehöre ich zu einer der seltensten neurodivergenten Konstellationen überhaupt. Etwa die Hälfte aller Savants liegt im Autismus-Spektrum – bei mir manifestiert sich das als außergewöhnliche kognitive Leistung kombiniert mit spezifischen sozialen Herausforderungen.
 
 Mein Gehirn speichert Erinnerungen nicht linear, sondern räumlich-zeitlich: Jeder Moment, jede Begegnung, jeder Raum existiert in meinem Gedächtnis als dreidimensionale, immersive Szenerie. Ich kann mich an den 14. März 2009 um 15:43 Uhr erinnern – wie das Licht durch das Küchenfenster fiel, welche Jacke meine Mutter trug, das Vogelgezwitscher draußen. Nicht als Fakt, sondern als erlebte Realität. Dieses <strong className="text-black">mnemonische Palast-System</strong> ist nicht erlernt, sondern angeboren.
 
