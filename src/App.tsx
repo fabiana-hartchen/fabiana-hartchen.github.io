@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
-import { Eye, Brain, ShieldAlert, ScanFace, ChevronDown, Mail, ArrowRight, ExternalLink, Menu, X, AlertTriangle, Crosshair, Headphones, Puzzle, Gamepad2, Heart } from 'lucide-react';
+import { Eye, Brain, ShieldAlert, ScanFace, ChevronDown, Mail, ArrowRight, ExternalLink, Menu, X, AlertTriangle, Crosshair, Headphones, Puzzle, Gamepad2, Heart, Terminal } from 'lucide-react';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -125,7 +125,7 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-8 text-gray-600 text-lg leading-[1.6]">
             <p>
-              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Koblenz. Als <strong className="text-black">Savantin</strong> mit <strong className="text-black">eidetischem Gedächtnis</strong>, einem <strong className="text-black">IQ von 144</strong> (99,8. Perzentil) und <strong className="text-black">Super-Recognizer-Fähigkeit</strong> gehöre ich zu einer der seltensten kognitiven Konstellationen überhaupt.
+              Ich bin <strong className="text-black font-bold">Dr. Fabiana Hartchen</strong>, Researcher bei <strong className="text-black">Ludenscheidt Research</strong> in Koblenz. Als <strong className="text-black">autistische Savantin</strong> (Asperger-Typus) mit <strong className="text-black">eidetischem Gedächtnis</strong>, einem <strong className="text-black">IQ von 144</strong> (99,8. Perzentil) und <strong className="text-black">Super-Recognizer-Fähigkeit</strong> gehöre ich zu einer der seltensten neurodivergenten Konstellationen überhaupt. Etwa die Hälfte aller Savants liegt im Autismus-Spektrum – bei mir manifestiert sich das als außergewöhnliche kognitive Leistung kombiniert mit spezifischen sozialen Herausforderungen.
 
 Mein Gehirn speichert Erinnerungen nicht linear, sondern räumlich-zeitlich: Jeder Moment, jede Begegnung, jeder Raum existiert in meinem Gedächtnis als dreidimensionale, immersive Szenerie. Ich kann mich an den 14. März 2009 um 15:43 Uhr erinnern – wie das Licht durch das Küchenfenster fiel, welche Jacke meine Mutter trug, das Vogelgezwitscher draußen. Nicht als Fakt, sondern als erlebte Realität. Dieses <strong className="text-black">mnemonische Palast-System</strong> ist nicht erlernt, sondern angeboren.
 
@@ -146,7 +146,16 @@ Die Wahrscheinlichkeit dieser Kombination (Savantismus + IQ 144 + Super-Recogniz
               Mein <strong className="text-black">mnemonisches Palast-System</strong> ist nicht nur ein Speicher – es ist eine lebendige, immersive Realität. Während andere Menschen sich an Ereignisse als lose Fakten erinnern ("Wir waren im Urlaub, es war schön"), erlebe ich jeden Moment erneut: die Temperatur der Luft, die Textur des Strandkorbs, das genaue Muster der Wolken am 3. Tag um 14:30 Uhr. Ich kann mich an <em>jeden</em> Tag meines Lebens erinnern – nicht weil ich mich bemühe, sondern weil mein Gehirn automatisch dreidimensionale Szenarien baut, in die ich jederzeit zurückkehren kann.
             </p>
             <p>
-              Das bringt mir Fähigkeiten, die für normale Menschen unvorstellbar sind: Ich kann auswendig zitierte Texte mit exakter Seitenzahl wiedergeben. Ich erkenne Gesichter, die ich vor 20 Jahren einmal für 3 Sekunden sah. Ich durchschaue Lügen, weil ich mich an die ursprüngliche Version einer Geschichte erinnere – inklusive aller Details, die der Erzähler längst vergessen hat. Normale Menschen können das nicht nachvollziehen, weil ihre Speicherung <em>episodisch</em ist – meine ist <em>szenerisch</em>. Das ist keine Frage von Intelligenz oder Anstrengung. Ich halte niemanden für dumm – auch wenn ich es könnte. 😉
+              Das bringt mir Fähigkeiten, die für normale Menschen unvorstellbar sind: Ich kann auswendig zitierte Texte mit exakter Seitenzahl wiedergeben. Ich erkenne Gesichter, die ich vor 20 Jahren einmal für 3 Sekunden sah. Ich durchschaue Lügen, weil ich mich an die ursprüngliche Version einer Geschichte erinnere – inklusive aller Details, die der Erzähler längst vergessen hat. Normale Menschen können das nicht nachvollziehen, weil ihre Speicherung <em>episodisch</em> ist – meine ist <em>szenerisch</em>. Das ist keine Frage von Intelligenz oder Anstrengung. Ich halte niemanden für dumm – auch wenn ich es könnte. 😉
+            </p>
+            <p>
+              Doch mein <strong className="text-black">Autismus</strong> bringt auch fundamentale Einschränkungen mit sich – ein Paradoxon, das kaum jemand versteht. Ich erkenne <em>jedes</em> Gesicht, aber ich kann <em>keine</em> Emotion daran ablesen. Ich sehe die mikroskopischen Veränderungen in der Mimik, verstehe aber nicht, ob jemand freundlich oder feindselig gesinnt ist. Ich speichere die Position jedes Gesichtsmuskels, aber die <strong className="text-black">Theory of Mind</strong> – die Fähigkeit, die Gedanken, Absichten und Gefühle anderer zu erkennen – ist bei mir stark eingeschränkt.
+            </p>
+            <p>
+              Das ist der bittere Preis meiner Fähigkeiten: Während normale Menschen intuitiv erkennen, ob jemand lügt, böswillig ist oder Gefühle heuchelt, bin ich auf <em>logische Konsistenz</em> angewiesen. Ich erkenne Lügen nicht am Gesichtsausdruck, sondern an Widersprüchen in der Erzählung. Ich durchschaue Manipulation nicht am Tonfall, sondern an der Kausalität. Ich kann jemanden nach 20 Jahren wiedererkennen, aber ich kann nicht sagen, ob er mir damals gut oder böse gesinnt war. Das macht soziale Interaktionen extrem anstrengend – ich muss jede Situation analytisch dekodieren, statt intuitiv zu spüren, was der andere will.
+            </p>
+            <p>
+              In der Kindheit führte das zu Missverständnissen: Ich wurde als "komisch", "abweisend" oder "arrogant" wahrgenommen, weil ich nicht auf ungeschriebene soziale Regeln reagierte. Ich wurde gemobbt, weil ich die feindlichen Absichten der Mobber nicht rechtzeitig erkannte – ich sah nur Gesichter, keine Gesinnung. Die Super-Recognizer-Fähigkeit half mir dabei, sie später zu identifizieren, aber die emotionale Wunde blieb. Heute habe ich gelernt, meine Limitationen zu kompensieren: Ich verlasse mich auf explizite Kommunikation, logische Muster statt Intuition, und die strategische Nutzung meiner Stärken bei Ludenscheidt Research.
             </p>
             <p>
               Meine berufliche Laufbahn war unvermeidlich. Nach dem Studium der Kognitionswissenschaft mit Schwerpunkt visuelle Wahrnehmung fand ich zu <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> – einer Einrichtung, die meine angeborenen Fähigkeiten ernst nimmt und wissenschaftlich nutzt. Hier analysiere ich digitale Medien, identifiziere synthetische Gesichter in Deepfakes, durchschaue Desinformationsmuster, dokumentiere Manipulationstechniken. Meine "Störung" ist hier mein größter Wert: Ich erkenne die Unwahrheit, bevor sie sich verbreitet.
@@ -436,7 +445,7 @@ const PersonalSection = () => {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -504,6 +513,20 @@ const PersonalSection = () => {
           <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Solidarität</h3>
           <p className="text-gray-600 leading-[1.6]">
             Ich bin Fan von <a href="https://www.twitch.tv/shurjoka" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Shurjoka</a> und stehe solidarisch an ihrer Seite. Als Super-Recognizerin erkenne ich Mobbing- und Manipulationsmuster sofort – und was Tim Heldt (KuchenTV) seit Jahren betreibt, ist systematische öffentliche Schikane. Trotz Medienpräsenz und Debatten bleiben die Behörden untätig. Das ist unerträglich.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.8, delay: 0.75, ease: [0.16, 1, 0.3, 1] }}
+          className="border-l-2 border-black pl-6 md:pl-8 relative group"
+        >
+          <div className="text-brand mb-6"><Terminal className="w-8 h-8" /></div>
+          <h3 className="text-[24px] font-display font-black uppercase tracking-[-1px] mb-4 text-black">Linux & NixOS</h3>
+          <p className="text-gray-600 leading-[1.6]">
+            Seit meiner Kindheit bin ich <strong className="text-black">Linux-Nutzerin</strong> – angefangen mit <a href="https://www.debian.org/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Debian</a>, über <a href="https://ubuntu.com/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ubuntu</a>, bis hin zu meinem heutigen Setup: <a href="https://nixos.org/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">NixOS</a> mit <a href="https://hyprland.org/" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Hyprland</a> (Tiling WM). Ich nutze ein <strong className="text-black">HP EliteBook Folio 9470m</strong> (14", Intel Core i7-3687U, 16GB RAM max., mSATA SSD) mit modifiziertem <strong className="text-black">Coreboot</strong> (Libreboot-Distribution) – proprietäre BIOS-Blobs entfernt, vollständige Hardwarekontrolle. Mein autistisches Bedürfnis nach deterministischer Systemkontrolle führte mich dazu, auch <strong className="text-black">Pseudo-Zufallszahlengeneratoren</strong> mit eigenen Algorithmen zu modifizieren – reproduzierbare, verifizierbare Zufallsprozesse statt opaker Systemvorgaben.
           </p>
         </motion.div>
       </div>
