@@ -188,7 +188,7 @@ const ExpertiseSection = () => {
     {
       icon: <Crosshair className="w-8 h-8" />,
       title: "Logische Analyse",
-      desc: "Mit einem IQ von 137 und hochbegabtem Mustererkennungsvermögen durchschaute ich schon als Kind Logikbrüche in Erzählungen. Mein savantes Gedächtnis ermöglicht es mir, Zeitangaben, Kausalitäten und emotionale Diskrepanzen sofort zu erkennen. Diese Fähigkeit macht mich immun gegen Manipulation und Lügen – und ungeeignet für Krimiserien mit ihren dramaturgisch notwendigen Lücken."
+      desc: "Mit einem IQ von 144 und hochbegabtem Mustererkennungsvermögen durchschaute ich schon als Kind Logikbrüche in Erzählungen. Mein savantes Gedächtnis ermöglicht es mir, Zeitangaben, Kausalitäten und emotionale Diskrepanzen sofort zu erkennen. Diese Fähigkeit macht mich immun gegen Manipulation und Lügen – und ungeeignet für Krimiserien mit ihren dramaturgisch notwendigen Lücken."
     },
     {
       icon: <Brain className="w-8 h-8" />,
@@ -210,7 +210,7 @@ const ExpertiseSection = () => {
           Fähigkeiten & <br/><span className="text-black/30">Expertise</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Als Savantin mit eidetischem Gedächtnis, IQ 137 (99,3. Perzentil) und Super-Recognizer-Fähigkeit arbeite ich bei Ludenscheidt Research. Mein angeborenes mnemonisches Palast-System speichert Erinnerungen räumlich-zeitlich als immersive Szenarien. Die Kombination dieser drei Fähigkeiten tritt bei etwa 0,001% der Bevölkerung auf – das sind etwa 1 von 100.000 Menschen. Hier ist, was ich mit dieser einzigartigen neurobiologischen Ausstattung praktisch umsetze.
+          Als Savantin mit eidetischem Gedächtnis, IQ 144 (99,8. Perzentil) und Super-Recognizer-Fähigkeit arbeite ich bei Ludenscheidt Research. Mein angeborenes mnemonisches Palast-System speichert Erinnerungen räumlich-zeitlich als immersive Szenarien. Die Kombination dieser drei Fähigkeiten tritt bei etwa 0,0002% der Bevölkerung auf – das sind etwa 1 von 500.000 Menschen. Hier ist, was ich mit dieser einzigartigen neurobiologischen Ausstattung praktisch umsetze.
         </p>
       </motion.div>
 
@@ -400,8 +400,8 @@ const InstitutionSection = () => {
             <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">Eidetisches Gedächtnis</div>
           </div>
           <div className="border-l-2 border-black pl-6">
-            <div className="text-[32px] font-black text-black mb-2 leading-none">IQ 137</div>
-            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">99,3. Perzentil</div>
+            <div className="text-[32px] font-black text-black mb-2 leading-none">IQ 144</div>
+            <div className="text-[10px] text-gray-600 uppercase tracking-[1px]">99,8. Perzentil</div>
           </div>
         </motion.div>
       </div>
