@@ -180,7 +180,7 @@ Die Wahrscheinlichkeit dieser Kombination (Savantismus + IQ 144 + Super-Recogniz
           />
           <div className="absolute inset-0 bg-diagonal-pattern opacity-10 pointer-events-none"></div>
           <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-sm border border-black/10 p-4">
-            <div className="text-black font-bold uppercase tracking-[1px]">Fabiana Hartchen (2025)</div>
+            <div className="text-black font-bold uppercase tracking-[1px]">Dr. Fabiana Hartchen (2025)</div>
           </div>
         </motion.div>
       </div>
