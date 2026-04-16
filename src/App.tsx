@@ -80,15 +80,16 @@ const HeroSection = ({ y }: { y: any }) => {
         </motion.div>
       </div>
 
-      <div className="flex-1 relative bg-gray-100 min-h-[50vh] md:min-h-screen flex flex-col justify-end p-8 md:p-12 border-l border-black/10">
-        <div className="fixed inset-0 w-full h-full overflow-hidden -z-10">
+      <div className="flex-1 relative min-h-[50vh] md:min-h-screen flex flex-col justify-end p-8 md:p-12 border-l border-black/10 overflow-hidden">
+        <div className="absolute inset-0 w-full h-full">
           <img
             src="images/Koblenz-Deutsches_Eck.png"
             alt="Koblenz Deutsches Eck"
-            className="w-full h-full object-cover opacity-15 mix-blend-multiply grayscale"
+            className="w-full h-full object-cover opacity-20 mix-blend-multiply grayscale"
             referrerPolicy="no-referrer"
           />
         </div>
+        <div className="absolute inset-0 bg-gray-100/70"></div>
         <div className="absolute inset-0 bg-diagonal-pattern opacity-10 z-10"></div>
         
         <div className="relative z-20 grid grid-cols-3 gap-4 mt-auto">
