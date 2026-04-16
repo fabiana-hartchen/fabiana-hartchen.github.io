@@ -85,7 +85,7 @@ const HeroSection = ({ y }: { y: any }) => {
           <img
             src="images/Koblenz-Deutsches_Eck.png"
             alt="Koblenz Deutsches Eck"
-            className="w-full h-full object-cover opacity-60 mix-blend-multiply grayscale"
+            className="w-full h-full object-cover opacity-75 mix-blend-multiply grayscale"
             referrerPolicy="no-referrer"
           />
         </div>
