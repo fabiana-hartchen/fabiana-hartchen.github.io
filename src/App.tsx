@@ -279,10 +279,13 @@ const InteractiveDemoSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 relative bg-gray-100 border border-black/10 p-4 aspect-video flex items-center justify-center overflow-hidden">
             <img 
-              src="https://picsum.photos/seed/ai-face-demo-light/1200/800?grayscale" 
-              alt="Demo Face" 
+              src="images/Menschenmenge.png" 
+              alt="Menschenmenge Analyse" 
               className="w-full h-full object-cover opacity-50 mix-blend-multiply"
               referrerPolicy="no-referrer"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = "https://picsum.photos/seed/crowd-analysis/1200/800?grayscale";
+              }}
             />
             <div className="absolute inset-0 bg-diagonal-pattern opacity-10 pointer-events-none"></div>
             
