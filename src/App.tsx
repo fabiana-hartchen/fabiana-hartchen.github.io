@@ -156,7 +156,7 @@ const AboutSection = () => {
               Doch mein <strong className="text-black">Autismus</strong> bringt ein bitteres Paradoxon: Ich erkenne jedes Gesicht, aber keine Emotion. Ich sehe mikroskopische Mimik-Veränderungen, verstehe aber nicht, ob jemand freundlich oder feindselig ist. Meine <strong className="text-black">Theory of Mind</strong> – die Fähigkeit, fremde Gedanken und Absichten zu erkennen – ist stark eingeschränkt. Ich erkenne Lügen nicht am Gesichtsausdruck, sondern an logischen Widersprüchen. Ich kann jemanden nach 20 Jahren wiedererkennen, aber nicht sagen, ob er mir gut oder böse gesinnt war. Soziale Interaktionen sind extrem anstrengend – ich muss alles analytisch dekodieren statt intuitiv zu spüren.
             </p>
             <p>
-              In der Kindheit wurde ich als "komisch" oder "arrogant" wahrgenommen, weil ich ungeschriebene Regeln nicht bemerkte. Ich erkannte Mobbing-Absichten nicht rechtzeitig – ich sah nur Gesichter, keine Gesinnung. Heute kompensiere ich durch explizite Kommunikation und logische Muster. Nach dem Kognitionswissenschaft-Studium fand ich zu <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> – hier ist meine "Störung" mein größter Wert: Ich erkenne Deepfakes und Desinformation, bevor sie sich verbreiten.
+              In der Kindheit wurde ich als "komisch" oder "arrogant" wahrgenommen, weil ich ungeschriebene Regeln nicht bemerkte. Ich erkannte Mobbing-Absichten nicht rechtzeitig – ich sah nur Gesichter, keine Gesinnung. Heute kompensiere ich durch explizite Kommunikation und logische Muster. Nach dem Kognitionswissenschaft-Studium fand ich zu <a href="https://ludenscheidt-research.de" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> – hier ist meine "Störung" mein größter Wert: Ich erkenne Deepfakes und Desinformation, bevor sie sich verbreiten.
             </p>
           </div>
         </motion.div>
@@ -393,7 +393,7 @@ const InstitutionSection = () => {
             Ludenscheidt <br/> Research
           </h2>
           <p className="text-gray-600 text-lg leading-[1.6] mb-10">
-            Bei <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> widme ich mich der praktischen und theoretischen Erforschung digitaler Medienphänomene. Meine tägliche Arbeit umfasst die systematische Analyse visueller Inhalte, die Dokumentation von Mustern in digitalen Kommunikationsstrukturen und die Entwicklung methodischer Ansätze zur Bewertung von Medienauthentizität.
+            Bei <a href="https://ludenscheidt-research.de" target="_blank" rel="noreferrer" className="text-black hover:text-brand underline decoration-black/30 underline-offset-4 font-semibold">Ludenscheidt Research</a> widme ich mich der praktischen und theoretischen Erforschung digitaler Medienphänomene. Meine tägliche Arbeit umfasst die systematische Analyse visueller Inhalte, die Dokumentation von Mustern in digitalen Kommunikationsstrukturen und die Entwicklung methodischer Ansätze zur Bewertung von Medienauthentizität.
           </p>
           <p className="text-gray-600 text-lg leading-[1.6] mb-10">
             Ich wohne im <strong className="text-black">Raiffeisenring</strong> in Neuwied und pendelt täglich ca. <strong className="text-black">17 km</strong> zur Arbeit nach Koblenz – autofrei. Die Strecke: Mit dem <strong className="text-black">RE5 (Rhein-Express)</strong> oder <strong className="text-black">RE25</strong> von Neuwied Hbf nach Koblenz Hbf (Fahrzeit ca. 15-20 Minuten, Taktung halbstündlich). Vom Hbf nehme ich die <strong className="text-black">Stadtbuslinie</strong> (z.B. Linie 1, 2, 3, 5, 6, 9, 16) bis zur Haltestelle <strong className="text-black">"Stadtmitte/Löhr-Center"</strong> – von dort sind es nur noch ca. 5 Minuten Fußweg zur Anton-Jordan-Straße 3. Die gesamte Reisezeit beträgt etwa 35-45 Minuten. Autofrei, weil ich in Bahnen und Bussen keine Gesichter speichern muss – ich kann lesen, denken, abschalten.
@@ -586,7 +586,7 @@ export default function App() {
     <div className="min-h-screen bg-white text-black font-sans selection:bg-brand selection:text-white flex">
       {/* Sidebar */}
       <aside className="hidden md:flex fixed left-0 top-0 bottom-0 w-[80px] border-r border-black/10 flex-col justify-center items-center z-50 bg-white">
-        <a href="https://ludenscheidt-research.github.io" target="_blank" rel="noreferrer" className="[writing-mode:vertical-rl] rotate-180 uppercase tracking-[3px] text-[18px] font-black text-blue-600 hover:text-blue-800 underline underline-offset-4 whitespace-nowrap transition-colors">
+        <a href="https://ludenscheidt-research.de" target="_blank" rel="noreferrer" className="[writing-mode:vertical-rl] rotate-180 uppercase tracking-[3px] text-[18px] font-black text-blue-600 hover:text-blue-800 underline underline-offset-4 whitespace-nowrap transition-colors">
           LUDENSCHEIDT RESEARCH
         </a>
       </aside>
