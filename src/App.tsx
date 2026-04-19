@@ -96,6 +96,9 @@ const HeroSection = ({ y }: { y: any }) => {
             alt="Koblenz Deutsches Eck"
             className="w-full h-full object-cover opacity-75 mix-blend-multiply grayscale"
             referrerPolicy="no-referrer"
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = "https://picsum.photos/seed/koblenz/1920/1080?grayscale";
+            }}
           />
         </div>
         <div className="absolute inset-0 bg-gray-100/70"></div>
